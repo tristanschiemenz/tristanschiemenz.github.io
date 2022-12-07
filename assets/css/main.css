@@ -7,7 +7,7 @@
 
 /*--------------------------------------------------------------
 # Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+# Learn more Haushaltstheorie CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -614,16 +614,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us Section
+# Haushaltstheorie Us Section
 --------------------------------------------------------------*/
-.about h3 {
+.Haushaltstheorie h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
 
-.about .call-us {
+.Haushaltstheorie .call-us {
   left: 10%;
   right: 10%;
   bottom: 0;
@@ -633,29 +633,29 @@ section {
   text-align: center;
 }
 
-.about .call-us h4 {
+.Haushaltstheorie .call-us h4 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.about .call-us p {
+.Haushaltstheorie .call-us p {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-primary);
 }
 
-.about .content ul {
+.Haushaltstheorie .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.Haushaltstheorie .content ul li {
   padding: 0 0 10px 30px;
   position: relative;
 }
 
-.about .content ul i {
+.Haushaltstheorie .content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -663,11 +663,11 @@ section {
   color: var(--color-primary);
 }
 
-.about .content p:last-child {
+.Haushaltstheorie .content p:last-child {
   margin-bottom: 0;
 }
 
-.about .play-btn {
+.Haushaltstheorie .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
@@ -679,7 +679,7 @@ section {
   overflow: hidden;
 }
 
-.about .play-btn:before {
+.Haushaltstheorie .play-btn:before {
   content: "";
   position: absolute;
   width: 120px;
@@ -702,7 +702,7 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 
-.about .play-btn:after {
+.Haushaltstheorie .play-btn:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -717,7 +717,7 @@ section {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.about .play-btn:hover:before {
+.Haushaltstheorie .play-btn:hover:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -735,7 +735,7 @@ section {
   border-radius: 0;
 }
 
-.about .play-btn:hover:after {
+.Haushaltstheorie .play-btn:hover:after {
   border-left: 15px solid var(--color-primary);
   transform: scale(20);
 }
