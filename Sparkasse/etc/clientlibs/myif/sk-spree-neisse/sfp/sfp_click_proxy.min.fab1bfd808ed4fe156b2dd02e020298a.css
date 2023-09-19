@@ -1,0 +1,5 @@
+.sfp_click_proxy_container{width:100%;display:flex;background:white}
+.sfp_click_proxy_clickarea{width:auto;display:inline-block;cursor:pointer}
+.sfp_click_proxy_clickarea img{width:100%}
+@media(max-width:480px){.sfp_click_proxy_container{display:none}
+}

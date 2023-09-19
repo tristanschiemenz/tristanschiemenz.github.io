@@ -1,0 +1,148 @@
+.pszahlen *,.pszahlen *:before,.pszahlen *:after{box-sizing:border-box}
+.pszahlen *{line-height:1.3}
+.pszahlen .spinner{margin-top:45px;margin-bottom:45px;text-align:center}
+@keyframes pszahlen_spin{0{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}
+.pszahlen .spinner .pszahlen_spin{animation:spin 1s infinite linear;transform-origin:16px 16px}
+.pszahlen .spinner svg{display:inline-block;vertical-align:middle;transform:scale(1.85)}
+@media(max-width:999px){.pszahlen .spinner{margin-top:25px;margin-bottom:25px}
+.pszahlen .spinner svg{transform:scale(0.75)}
+}
+.pszahlen .error-message{padding:20px 0;text-align:center;color:red}
+@media(max-width:999px){.pszahlen .error-message{padding:10px 0}
+}
+.pszahlen span.checkbox{background-color:white}
+.pszahlen .column-checkbox.invalid span.checkbox::before{border:2px solid red}
+.pszahlen .trashcan{cursor:pointer;display:inline-block}
+.pszahlen .trashcan::after{content:"\F721";font:25px/81% Pictos-IF;margin-right:10px;color:red;display:inline-block;width:27px;height:27px;margin-bottom:-2px;pointer-events:none}
+.pszahlen .trashcan-big{cursor:pointer;float:left}
+.pszahlen .trashcan-big::after{content:"\F721";font:25px/81% Pictos-IF;margin-left:10px;color:#777;display:inline-block;width:27px;height:27px;margin-bottom:-2px;pointer-events:none;border:1px solid #777;border-radius:50%}
+.pszahlen .wblock-modal{width:auto !important;background:white !important;transparency:100% !important;padding:20px}
+.pszahlen .wblock-modal p{margin-bottom:20px;line-height:150%}
+.pszahlen input.invalid,.pszahlen select.invalid{border:2px solid red}
+.pszahlen .select-modified{-moz-appearance:none}
+.pszahlen .select-modified::-ms-expand{display:none}
+.pszahlen .select-modified:-moz-focusring{color:transparent;text-shadow:0 0 0 #777}
+.pszahlen .image-modal-container a.close-icon{text-decoration:none !important}
+.pszahlen .image-modal-container .image-modal-overlay{background-color:rgba(0,0,0,0.6);left:0;height:100%;position:fixed;top:0;width:100%;z-index:3000}
+.pszahlen .image-modal-container .image-modal-window{outline:10px solid rgba(0,0,0,0.2) !important;display:inline-block;position:relative;left:50%;top:50%;transform:translate(-50%,-50%);width:574px !important}
+.pszahlen .image-modal-container .image-modal-window img{max-width:534px;vertical-align:middle}
+@media(max-width:999px){.pszahlen .image-modal-container .image-modal-overlay{padding:10px 40px}
+.pszahlen .image-modal-container .image-modal-window{outline-width:5px !important;width:auto !important;margin:auto !important}
+.pszahlen .image-modal-container .wblock-modal{padding:15px 10px}
+.pszahlen .image-modal-container img{max-height:calc(100vh - 100px);max-width:calc(100vw - 100px);vertical-align:middle}
+}
+@media(max-width:480px){.pszahlen .image-modal-container .image-modal-overlay{padding:10px}
+.pszahlen .image-modal-container .image-modal-window img{max-height:calc(100vh - 60px);max-width:calc(100vw - 60px)}
+}
+@media(max-width:999px){.pszahlen .halved1{width:50% !important;padding:0;padding-right:5px}
+.pszahlen .halved2{width:50% !important;padding:0;padding-left:5px}
+.pszahlen .tinytext{font-size:12px !important}
+}
+.pszahlen .tinytext{color:#777;font-size:14px}
+.pszahlen .padded{padding:10px;border-top:1px solid #777}
+.pszahlen .total{color:black;border-top:4px solid #777}
+.pszahlen .column-checkbox{vertical-align:top;display:inline-block;width:4%}
+.pszahlen .column-text{display:inline-block;width:95%}
+.pszahlen label.invalid{color:red}
+.pszahlen a{color:red;cursor:pointer;text-decoration:underline}
+.pszahlen .clickable{cursor:pointer}
+.pszahlen h1{font-size:25px;color:red;margin-top:-5px}
+.pszahlen h2{font-size:25px;color:#000;border-bottom:1px solid #f0f0f0;margin-left:-20px;margin-right:-20px;padding-left:20px;padding-right:20px;margin-bottom:20px;padding-bottom:10px}
+.pszahlen table{font-size:18px}
+.pszahlen table tbody{color:#777}
+.pszahlen table tbody tr:nth-child(even){background:#fff}
+.pszahlen table tbody tr:nth-child(odd){background:#e3e3e3}
+.pszahlen table .min{min-width:220px}
+.pszahlen .inline{display:inline-block}
+.pszahlen .no-desktop{visibility:collapse;display:none}
+.pszahlen .sphone-only{visibility:collapse;display:none}
+.pszahlen .left{text-align:left}
+.pszahlen .right{text-align:right}
+.pszahlen .center{text-align:center}
+.pszahlen .nav-desktop{background:#f0f0f0}
+.pszahlen .nav-desktop .entry{display:inline-block;background:#e3e3e3;color:#777;font-size:25px;padding:20px;cursor:pointer;border-right:3px solid #d7d7d7}
+.pszahlen .nav-desktop .active{background:#fff;color:red;border-right:0}
+.pszahlen .wblock{background:#fff;border:0;border-bottom:4px solid #f0f0f0;margin:0 !important;padding:20px}
+.pszahlen .bblock{background:#fff;border:0;border-bottom:4px solid #f0f0f0;margin:0 !important;padding:20px;padding-top:5px !important}
+.pszahlen .wblock-nosep{background:#fff;border:0;margin:0 !important;padding:15px}
+.pszahlen .tblock{background:#fff;border:0;border-bottom:4px solid #f0f0f0;margin:0 !important;padding:0 !important}
+.pszahlen .gblock{background:#f0f0f0}
+.pszahlen button::-moz-focus-inner,.pszahlen a:focus,.pszahlen a:active{border:0 !important;outline:0 !important}
+.pszahlen .row{padding-top:10px;padding-bottom:10px}
+.pszahlen .row .column1{width:33%;display:inline-block}
+.pszahlen .row .column1 label{margin-right:20px}
+.pszahlen .row .column2{width:66%;display:inline-block}
+.pszahlen .row .column2 label{margin-left:20px;margin-right:20px}
+.pszahlen .row .column2a{width:66%;display:inline-block;margin-left:-5px}
+.pszahlen .row label{font-size:14px}
+.pszahlen .row input,.pszahlen .row select{font-size:18px}
+.pszahlen .row input.small{width:130px}
+.pszahlen .row input.large{width:300px}
+.pszahlen .row select{width:300px}
+.pszahlen .button{border-radius:0;padding:10px;margin-top:15px;border:0;font-size:25px;margin-left:10px;cursor:pointer}
+.pszahlen .back{background:0;color:#777;font-size:18px;margin-left:-10px}
+.pszahlen .back::before{content:"<";font:25px/81% Pictos-IF;margin-right:10px;color:#777;display:inline-block;width:27px;height:27px;border:1px solid #777;border-radius:50%;margin-bottom:-2px;pointer-events:none}
+.pszahlen .back:not([disabled]):hover::before{background:#777;color:#fff}
+.pszahlen .primary{background:red;color:white}
+.pszahlen .primary:disabled{background:#fcc;cursor:default}
+.pszahlen .primary::after{content:">";font:25px/81% Pictos-IF;margin-left:10px;color:#fff;display:inline-block;width:27px;height:27px;border:1px solid #fff;border-radius:50%;margin-bottom:-2px;pointer-events:none}
+.pszahlen .primary:not([disabled]):hover::after{background:#fff;color:red}
+.pszahlen .secondary{background:#e3e3e3;color:#777;margin-right:10px}
+.pszahlen button.plus{color:red;border:0;background:0;font-size:18px;cursor:pointer;margin-left:-6px;outline:0}
+.pszahlen button.plus::before{content:"+ "}
+.pszahlen div.link{color:red;border:0;padding-left:0;padding-right:0;background:0;cursor:pointer;outline:0;text-decoration:underline;display:inline}
+.pszahlen .no-sphone{visibility:visible !important;display:block !important}
+@media(max-width:999px){.pszahlen .pad-correction2{margin-left:-5px !important}
+.pszahlen .column-checkbox{vertical-align:top;display:inline-block;width:10%}
+.pszahlen .column-text{display:inline-block;width:89%}
+.pszahlen button.plus{font-size:15px;margin-left:0}
+.pszahlen h1{font-size:17px;margin-top:-10px}
+.pszahlen h2{font-size:17px}
+.pszahlen table{font-size:15px}
+.pszahlen table .min{min-width:50px}
+.pszahlen .nav-desktop *{font-size:15px !important}
+.pszahlen .no-sphone{visibility:visible !important;display:block !important}
+.pszahlen .no-tablet{visibility:collapse !important;display:none !important}
+.pszahlen .no-desktop{visibility:visible !important;display:block !important}
+.pszahlen .sphone-only{visibility:collapse !important;display:none !important}
+.pszahlen .gblock{padding:0 0 10px 10px}
+.pszahlen .tblock{border:0;border-bottom:4px solid #f0f0f0;padding:0 !important}
+.pszahlen .row label{font-size:14px !important}
+.pszahlen .row input,.pszahlen .row select{font-size:15px !important;max-width:220px}
+.pszahlen .row .column1{width:24%}
+.pszahlen .row .column2{width:75%}
+.pszahlen .row .column2 label{margin-left:10px;margin-right:10px}
+.pszahlen .row input.smaller{width:100px}
+.pszahlen .row input.small{width:100px}
+.pszahlen .row .trashcan::after{margin-right:0}
+.pszahlen .button{font-size:17px}
+.pszahlen .primary::after{content:">";font:17px/81% Pictos-IF !important;margin-left:7px !important;width:17px !important;height:17px !important}
+.pszahlen .back::before{font:17px/81% Pictos-IF !important;margin-left:7px !important;width:17px !important;height:17px !important}
+.pszahlen .plus{font-size:15px}
+}
+@media(max-width:480px){.pszahlen .no-sphone{visibility:collapse !important;display:none !important}
+.pszahlen .sphone-only{visibility:visible !important;display:block !important}
+.pszahlen .nav-sphone{background:#f0f0f0;padding:10px 0 0 10px;margin-left:-10px;border-bottom:2px solid #f0f0f0}
+.pszahlen .nav-sphone option{background:#fff;color:#000}
+.pszahlen .nav-sphone option:checked{background:#fff !important;color:red}
+.pszahlen .nav-sphone select{font-size:17px;border:0;border-radius:0;color:red;width:100%;height:50px;outline:0}
+.pszahlen .nav-sphone select.select-modified{margin-right:-50px;background:#fff;height:50px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;line-height:20px}
+.pszahlen .nav-sphone select.select-modified:-moz-focusring{color:transparent;text-shadow:0 0 0 red}
+.pszahlen .nav-sphone select.select-modified+span.select{display:inline-block;z-index:9999}
+.pszahlen .nav-sphone span.select{display:none;pointer-events:none;background-color:red;width:50px;height:50px;position:relative;top:19px;padding:5px 5px 5px 1px;font-size:18px;line-height:20px;border-radius:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;white-space:nowrap}
+.pszahlen .nav-sphone span.select:before{border:0;font-family:Pictos-IF;content:"d";color:#fff;display:block;position:absolute;top:30%;left:10px;font-size:30px}
+.pszahlen .row .column1{width:100%;display:inline-block;text-align:left}
+.pszahlen .row .column1 label{padding-right:20px;font-size:12px}
+.pszahlen .row .column2{width:100%;display:inline-block}
+.pszahlen .row .column2 label{margin-left:0 !important}
+.pszahlen .row .column2a{width:100%;display:inline-block}
+.pszahlen .row label{font-size:12px}
+.pszahlen .row input,.pszahlen .row select{font-size:12px}
+.pszahlen .row input.small{width:100%}
+.pszahlen .row input.large{width:100%}
+.pszahlen .row input.small.removable{width:80%}
+.pszahlen .row input.smaller.removable{width:70%}
+.pszahlen .row select{width:100%}
+}

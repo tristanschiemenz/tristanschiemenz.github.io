@@ -1,0 +1,823 @@
+.deka_fonds .accordeon-headline{background:#e3e3e3 none repeat scroll 0 0;margin-right:20px;cursor:pointer;vertical-align:middle;margin-bottom:10px}
+.deka_fonds .accordeon-headline h2{height:40px;line-height:40px;display:inline-block;padding:0 0 0 35px;margin:10px 0;overflow:hidden;position:relative;-ms-user-select:none;user-select:none;-moz-user-select:none;-webkit-user-select:none}
+.deka_fonds .accordeon-headline h2:before{font-family:Pictos-IF;content:">";position:absolute;left:10px}
+.deka_fonds .accordeon-headline+.accordeon-content{display:none;opacity:0}
+.deka_fonds .accordeon-headline.active{margin-bottom:20px;background-color:#fd0d1b}
+.deka_fonds .accordeon-headline.active h2{color:#FFF}
+.deka_fonds .accordeon-headline.active h2:before{content:"d"}
+.deka_fonds .accordeon-headline.active+.accordeon-content{display:block;opacity:1}
+.deka_fonds .accordeon-content{overflow:hidden}
+.deka_fonds .accordeon-content p+.cbox{margin-top:0}
+.deka_fonds .accordeon-content p+.cbox-small,.deka_fonds .accordeon-content p+.cbox-medium{margin-top:0}
+.deka_fonds .accordeon-content p+.cbox-small+.cbox,.deka_fonds .accordeon-content p+.cbox-medium+.cbox{margin-top:0}
+.deka_fonds .accordeon-content__full-width span{display:block;padding-bottom:10px}
+.deka_fonds .accordeon-wrapper{margin-right:-20px}
+.deka_fonds .accordeon-buttons{margin-top:10px;text-align:right;font-family:'Sparkasse Rg',sans-serif;font-size:18px;color:#777;margin-bottom:30px;margin-right:20px}
+.deka_fonds .accordeon-buttons .ficon{width:auto;height:auto}
+.deka_fonds .accordeon-close-all,.deka_fonds .accordeon-open-all{display:inline}
+.deka_fonds .accordeon-open-all{margin-right:20px}
+.deka_fonds .accordeon-close-all,.deka_fonds .accordeon-open-all{display:inline-block;line-height:40px;height:40px;padding-left:40px;cursor:pointer}
+@media(max-width:1079px){.deka_fonds .accordeon-buttons{margin-right:10px}
+.deka_fonds .accordeon-headline{margin-right:10px}
+.deka_fonds .accordeon-wrapper{margin-right:-10px}
+}
+.deka_fonds .left{text-align:left}
+@media(max-width:649px){.deka_fonds .mobile-left{text-align:left !important}
+}
+.deka_fonds .right{text-align:right}
+@media(max-width:649px){.deka_fonds .mobile-right{text-align:right !important}
+}
+.deka_fonds .autocomplete--open{border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom:0;margin-bottom:2px}
+.deka_fonds .autocomplete--open+.autocomplete-result-list{display:block}
+.deka_fonds .autocomplete-result-list{margin-top:-2px;position:absolute;display:none;z-index:50;width:305px;padding:0;border:2px solid #777;border-top:0;border-radius:0 0 5px 5px;background-color:#fff;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_fonds .autocomplete-result-list li:before{content:'';display:none}
+.deka_fonds .autocomplete-result-list mark{background-color:transparent;color:red}
+.deka_fonds .ixl+.autocomplete-result-list li{padding:5px;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;color:#777;white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis;cursor:pointer}
+.deka_fonds .ixl+.autocomplete-result-list li:first-child{border-top:2px solid #e3e3e3}
+.deka_fonds .ixl+.autocomplete-result-list li:hover,.deka_fonds .ixl+.autocomplete-result-list li.autocomplete-item--selected{background-color:#e3e3e3;color:#000}
+.deka_fonds .bline .autocomplete-result-list:nth-child(3){left:260px}
+@media(max-width:999px){.deka_fonds .autocomplete-result-list li{line-height:15px}
+.deka_fonds .bline .autocomplete-result-list:nth-child(3){width:-moz-calc(100% - 250px);width:calc(100% - 250px);left:230px}
+}
+@media(max-width:549px){.deka_fonds .autocomplete-result-list{margin-top:-9px}
+.deka_fonds .bline .autocomplete-result-list:nth-child(3){width:auto;left:10px;right:20px}
+.deka_fonds .autocomplete--open{margin-bottom:9px}
+}
+@media screen and (min-width:999px){.deka_fonds .cbox--double{padding-bottom:5px}
+.deka_fonds .cbox--double tbody{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+.deka_fonds .cbox--double tr{width:50%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-flex:40%;-webkit-flex:40%;-moz-box-flex:40%;-ms-flex:40%;flex:40%;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-right:20px}
+.deka_fonds .cbox--double tr:nth-child(4n+1),.deka_fonds .cbox--double tr:nth-child(4n+2){background:#fff}
+.deka_fonds .cbox--double tr:nth-child(4n+3):nth-last-child(2),.deka_fonds .cbox--double tr:nth-child(4n+4):nth-last-child(1){background:#f0f0f0;border-bottom:5px solid #fff}
+}
+@media screen and (min-width:1080px){.deka_fonds .cbox--double tr:nth-child(4n+3):nth-last-child(2),.deka_fonds .cbox--double tr:nth-child(4n+4):nth-last-child(1){border-bottom:15px solid #fff}
+}
+.deka_fonds .chart-table__wrapper{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;padding-right:0;padding-bottom:0;margin-bottom:0}
+@media(max-width:999px){.deka_fonds .chart-table__wrapper{display:block;padding-right:10px;padding-bottom:10px;margin-bottom:10px}
+}
+.deka_fonds .chart-table__chart{width:55%;padding-right:20px;margin-bottom:40px}
+@media(max-width:999px){.deka_fonds .chart-table__chart{width:100%}
+}
+.deka_fonds .chart-table__tables{width:45%;background:#f0f0f0;overflow:hidden;margin-top:-20px;padding-top:20px}
+@media screen and (max-width:1079px){.deka_fonds .chart-table__tables{margin-top:-10px;padding-top:10px}
+}
+@media(max-width:999px){.deka_fonds .chart-table__tables{width:100%;overflow:visible;margin-top:0;padding-top:0}
+}
+.deka_fonds .chart-table__tables .cbox{border-right:0;border-left:20px solid #f0f0f0}
+@media screen and (max-width:1079px){.deka_fonds .chart-table__tables .cbox{border-left:10px solid #f0f0f0}
+}
+@media(max-width:999px){.deka_fonds .chart-table__tables .cbox{border-top:10px solid #f0f0f0;border-left:0;margin-left:-10px;width:-moz-calc(100% + 20px);width:calc(100% + 20px)}
+}
+.deka_fonds .chart-table__tables .cbox:first-child{border-top:0}
+@media(max-width:999px){.deka_fonds .chart-table__tables .cbox:first-child{border-top:10px solid #f0f0f0}
+}
+.deka_fonds .chart-table__tables .cbox:last-child{height:100% !important}
+@media(max-width:999px){.deka_fonds .chart-table__tables .cbox:last-child{padding-bottom:0;margin-bottom:0}
+}
+.deka_fonds .chart-table__tables .cbox:only-child{height:100% !important}
+.deka_fonds .context-switcher__button--active:before{color:#fff;background-color:#777}
+.deka_fonds .context-switcher__menu{list-style:none;padding:none;text-align:right;margin-bottom:20px}
+.deka_fonds .context-switcher__menu-item{display:inline-block}
+.deka_fonds .context-switcher__menu-item:before{content:none}
+.deka_fonds .context-switcher__content--hidden{display:none}
+.deka_fonds .flatpickr-calendar{background:transparent;overflow:hidden;max-height:0;opacity:0;visibility:hidden;text-align:center;padding:0;-webkit-animation:none;-moz-animation:none;animation:none;direction:ltr;border:0;font-size:14px;line-height:24px;border-radius:5px;position:absolute;width:307.875px;-moz-box-sizing:border-box;box-sizing:border-box;-ms-touch-action:manipulation;touch-action:manipulation;background:#fff;box-shadow:1px 0 0 #e6e6e6,-1px 0 0 #e6e6e6,0 1px 0 #e6e6e6,0 -1px 0 #e6e6e6,0 3px 13px rgba(0,0,0,0.08);margin-right:0}
+.deka_fonds .flatpickr-calendar.open,.deka_fonds .flatpickr-calendar.inline{opacity:1;visibility:visible;overflow:visible;max-height:640px}
+.deka_fonds .flatpickr-calendar.open{display:inline-block;z-index:99999}
+.deka_fonds .flatpickr-calendar.animate.open{-webkit-animation:deka_fonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-calendar.inline{display:block;position:relative;top:2px}
+.deka_fonds .flatpickr-calendar.static{position:absolute;top:-moz-calc(100% + 2px);top:calc(100% + 2px);left:0}
+.deka_fonds .flatpickr-calendar.static.open{z-index:999;display:block}
+.deka_fonds .flatpickr-calendar.hasWeeks{width:auto}
+.deka_fonds .flatpickr-calendar .hasWeeks .dayContainer,.deka_fonds .flatpickr-calendar .hasTime .dayContainer{border-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.deka_fonds .flatpickr-calendar .hasWeeks .dayContainer{border-left:0}
+.deka_fonds .flatpickr-calendar.showTimeInput.hasTime .flatpickr-time{height:40px;border-top:1px solid #e6e6e6}
+.deka_fonds .flatpickr-calendar.noCalendar.hasTime .flatpickr-time{height:auto}
+.deka_fonds .flatpickr-calendar:before,.deka_fonds .flatpickr-calendar:after{position:absolute;display:block;pointer-events:none;border:solid transparent;content:'';height:0;width:0;left:22px}
+.deka_fonds .flatpickr-calendar.rightMost:before,.deka_fonds .flatpickr-calendar.rightMost:after{left:auto;right:22px}
+.deka_fonds .flatpickr-calendar:before{border-width:5px;margin:0 -5px}
+.deka_fonds .flatpickr-calendar:after{border-width:4px;margin:0 -4px}
+.deka_fonds .flatpickr-calendar.arrowTop:before,.deka_fonds .flatpickr-calendar.arrowTop:after{bottom:100%}
+.deka_fonds .flatpickr-calendar.arrowTop:before{border-bottom-color:#e6e6e6}
+.deka_fonds .flatpickr-calendar.arrowTop:after{border-bottom-color:#fff}
+.deka_fonds .flatpickr-calendar.arrowBottom:before,.deka_fonds .flatpickr-calendar.arrowBottom:after{top:100%}
+.deka_fonds .flatpickr-calendar.arrowBottom:before{border-top-color:#e6e6e6}
+.deka_fonds .flatpickr-calendar.arrowBottom:after{border-top-color:#fff}
+.deka_fonds .flatpickr-calendar:focus{outline:0}
+.deka_fonds .flatpickr-wrapper{position:relative;display:inline-block}
+.deka_fonds .flatpickr-month{display:block;background:transparent;color:rgba(0,0,0,0.9);fill:rgba(0,0,0,0.9);height:28px;line-height:1;text-align:center;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overflow:hidden;margin-right:0}
+.deka_fonds .flatpickr-prev-month,.deka_fonds .flatpickr-next-month{text-decoration:none;cursor:pointer;position:absolute;top:0;line-height:16px;height:28px;padding:10px -moz-calc(3.57% - 1.5px);padding:10px calc(3.57% - 1.5px);z-index:3}
+.deka_fonds .flatpickr-prev-month i,.deka_fonds .flatpickr-next-month i{position:relative}
+.deka_fonds .flatpickr-prev-month.flatpickr-prev-month,.deka_fonds .flatpickr-next-month.flatpickr-prev-month{left:0}
+.deka_fonds .flatpickr-prev-month.flatpickr-next-month,.deka_fonds .flatpickr-next-month.flatpickr-next-month{right:0}
+.deka_fonds .flatpickr-prev-month:hover,.deka_fonds .flatpickr-next-month:hover{color:#959ea9}
+.deka_fonds .flatpickr-prev-month:hover svg,.deka_fonds .flatpickr-next-month:hover svg{fill:#f64747}
+.deka_fonds .flatpickr-prev-month svg,.deka_fonds .flatpickr-next-month svg{width:14px}
+.deka_fonds .flatpickr-prev-month svg path,.deka_fonds .flatpickr-next-month svg path{-webkit-transition:fill .1s;-moz-transition:fill .1s;transition:fill .1s;fill:inherit}
+.deka_fonds .numInputWrapper{position:relative;height:auto}
+.deka_fonds .numInputWrapper input,.deka_fonds .numInputWrapper span{display:inline-block}
+.deka_fonds .numInputWrapper input{width:100%}
+.deka_fonds .numInputWrapper input::-ms-clear{display:none}
+.deka_fonds .numInputWrapper span{position:absolute;right:0;width:14px;padding:0 4px 0 2px;height:50%;line-height:50%;opacity:0;cursor:pointer;border:1px solid rgba(57,57,57,0.05);-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_fonds .numInputWrapper span:hover{background:rgba(0,0,0,0.1)}
+.deka_fonds .numInputWrapper span:active{background:rgba(0,0,0,0.2)}
+.deka_fonds .numInputWrapper span:after{display:block;content:"";position:absolute;top:33%}
+.deka_fonds .numInputWrapper span.arrowUp{top:0;border-bottom:0}
+.deka_fonds .numInputWrapper span.arrowUp:after{border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:4px solid rgba(57,57,57,0.6)}
+.deka_fonds .numInputWrapper span.arrowDown{top:50%}
+.deka_fonds .numInputWrapper span.arrowDown:after{border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(57,57,57,0.6)}
+.deka_fonds .numInputWrapper span svg{width:inherit;height:auto}
+.deka_fonds .numInputWrapper span svg path{fill:rgba(0,0,0,0.5)}
+.deka_fonds .numInputWrapper:hover{background:rgba(0,0,0,0.05)}
+.deka_fonds .numInputWrapper:hover span{opacity:1}
+.deka_fonds .flatpickr-current-month{font-size:135%;line-height:inherit;font-weight:300;color:inherit;position:absolute;width:75%;left:12.5%;padding:6.16px 0 0 0;line-height:1;height:28px;display:inline-block;text-align:center;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);margin-right:0}
+.deka_fonds .flatpickr-current-month.slideLeft{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);-webkit-animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-current-month.slideLeftNew{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);-webkit-animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-current-month.slideRight{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);-webkit-animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeOut 400ms ease,deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-current-month.slideRightNew{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeIn 400ms ease,deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-current-month span.cur-month{font-family:inherit;font-weight:700;color:inherit;display:inline-block;margin-left:.5ch;padding:0}
+.deka_fonds .flatpickr-current-month span.cur-month:hover{background:rgba(0,0,0,0.05)}
+.deka_fonds .flatpickr-current-month .numInputWrapper{width:6ch;width:7ch\0;display:inline-block}
+.deka_fonds .flatpickr-current-month .numInputWrapper span.arrowUp:after{border-bottom-color:rgba(0,0,0,0.9)}
+.deka_fonds .flatpickr-current-month .numInputWrapper span.arrowDown:after{border-top-color:rgba(0,0,0,0.9)}
+.deka_fonds .flatpickr-current-month input.cur-year{background:transparent;-moz-box-sizing:border-box;box-sizing:border-box;color:inherit;cursor:text;padding:0 0 0 .5ch;margin:0;display:inline-block;font-size:inherit;font-family:inherit;font-weight:300;line-height:inherit;height:initial;border:0;border-radius:0;vertical-align:initial}
+.deka_fonds .flatpickr-current-month input.cur-year:focus{outline:0}
+.deka_fonds .flatpickr-current-month input.cur-year[disabled],.deka_fonds .flatpickr-current-month input.cur-year[disabled]:hover{font-size:100%;color:rgba(0,0,0,0.5);background:transparent;pointer-events:none}
+.deka_fonds .flatpickr-weekdays{background:transparent;text-align:center;overflow:hidden;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-moz-box-align:center;align-items:center;height:28px}
+.deka_fonds span.flatpickr-weekday{cursor:default;font-size:90%;background:transparent;color:rgba(0,0,0,0.54);line-height:1;margin:0;text-align:center;display:block;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;font-weight:bolder}
+.deka_fonds .dayContainer,.deka_fonds .flatpickr-weeks{padding:1px 0 0 0}
+.deka_fonds .flatpickr-days{position:relative;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;width:307.875px;margin-right:0}
+.deka_fonds .flatpickr-days:focus{outline:0}
+.deka_fonds .dayContainer{padding:0;outline:0;text-align:left;width:307.875px;min-width:307.875px;max-width:307.875px;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-wrap:wrap;-ms-flex-pack:justify;-webkit-justify-content:space-around;justify-content:space-around;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1;margin-right:0}
+.deka_fonds .flatpickr-calendar.animate .dayContainer.slideLeft{-webkit-animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-calendar.animate .dayContainer.slideLeft,.deka_fonds .flatpickr-calendar.animate .dayContainer.slideLeftNew{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+.deka_fonds .flatpickr-calendar.animate .dayContainer.slideLeftNew{-webkit-animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-calendar.animate .dayContainer.slideRight{-webkit-animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+.deka_fonds .flatpickr-calendar.animate .dayContainer.slideRightNew{-webkit-animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_fonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_fonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_fonds .flatpickr-day{background:0;border:1px solid transparent;border-radius:150px;-moz-box-sizing:border-box;box-sizing:border-box;color:#393939;cursor:pointer;font-weight:400;width:14.2857143%;-webkit-flex-basis:14.2857143%;-ms-flex-preferred-size:14.2857143%;flex-basis:14.2857143%;max-width:39px;height:39px;line-height:39px;margin:0;display:inline-block;position:relative;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;-moz-box-pack:center;justify-content:center;text-align:center}
+.deka_fonds .flatpickr-day.inRange,.deka_fonds .flatpickr-day.prevMonthDay.inRange,.deka_fonds .flatpickr-day.nextMonthDay.inRange,.deka_fonds .flatpickr-day.today.inRange,.deka_fonds .flatpickr-day.prevMonthDay.today.inRange,.deka_fonds .flatpickr-day.nextMonthDay.today.inRange,.deka_fonds .flatpickr-day:hover,.deka_fonds .flatpickr-day.prevMonthDay:hover,.deka_fonds .flatpickr-day.nextMonthDay:hover,.deka_fonds .flatpickr-day:focus,.deka_fonds .flatpickr-day.prevMonthDay:focus,.deka_fonds .flatpickr-day.nextMonthDay:focus{cursor:pointer;outline:0;background:#e6e6e6;border-color:#e6e6e6}
+.deka_fonds .flatpickr-day.today{border-color:#959ea9}
+.deka_fonds .flatpickr-day.today:hover,.deka_fonds .flatpickr-day.today:focus{border-color:#959ea9;background:#959ea9;color:#fff}
+.deka_fonds .flatpickr-day.selected,.deka_fonds .flatpickr-day.startRange,.deka_fonds .flatpickr-day.endRange,.deka_fonds .flatpickr-day.selected.inRange,.deka_fonds .flatpickr-day.startRange.inRange,.deka_fonds .flatpickr-day.endRange.inRange,.deka_fonds .flatpickr-day.selected:focus,.deka_fonds .flatpickr-day.startRange:focus,.deka_fonds .flatpickr-day.endRange:focus,.deka_fonds .flatpickr-day.selected:hover,.deka_fonds .flatpickr-day.startRange:hover,.deka_fonds .flatpickr-day.endRange:hover,.deka_fonds .flatpickr-day.selected.prevMonthDay,.deka_fonds .flatpickr-day.startRange.prevMonthDay,.deka_fonds .flatpickr-day.endRange.prevMonthDay,.deka_fonds .flatpickr-day.selected.nextMonthDay,.deka_fonds .flatpickr-day.startRange.nextMonthDay,.deka_fonds .flatpickr-day.endRange.nextMonthDay{background:red;box-shadow:none;color:#fff;border-color:red}
+.deka_fonds .flatpickr-day.selected.startRange,.deka_fonds .flatpickr-day.startRange.startRange,.deka_fonds .flatpickr-day.endRange.startRange{border-radius:50px 0 0 50px}
+.deka_fonds .flatpickr-day.selected.endRange,.deka_fonds .flatpickr-day.startRange.endRange,.deka_fonds .flatpickr-day.endRange.endRange{border-radius:0 50px 50px 0}
+.deka_fonds .flatpickr-day.selected.startRange+.endRange,.deka_fonds .flatpickr-day.startRange.startRange+.endRange,.deka_fonds .flatpickr-day.endRange.startRange+.endRange{box-shadow:-10px 0 0 red}
+.deka_fonds .flatpickr-day.selected.startRange.endRange,.deka_fonds .flatpickr-day.startRange.startRange.endRange,.deka_fonds .flatpickr-day.endRange.startRange.endRange{border-radius:50px}
+.deka_fonds .flatpickr-day.inRange{border-radius:0;box-shadow:-5px 0 0 #e6e6e6,5px 0 0 #e6e6e6}
+.deka_fonds .flatpickr-day.disabled,.deka_fonds .flatpickr-day.disabled:hover,.deka_fonds .flatpickr-day.prevMonthDay,.deka_fonds .flatpickr-day.nextMonthDay,.deka_fonds .flatpickr-day.notAllowed,.deka_fonds .flatpickr-day.notAllowed.prevMonthDay,.deka_fonds .flatpickr-day.notAllowed.nextMonthDay{color:rgba(57,57,57,0.3);background:transparent;border-color:transparent;cursor:default}
+.deka_fonds .flatpickr-day.disabled,.deka_fonds .flatpickr-day.disabled:hover{cursor:not-allowed;color:rgba(57,57,57,0.1)}
+.deka_fonds .flatpickr-day.week.selected{border-radius:0;box-shadow:-5px 0 0 #f00,5px 0 0 red}
+.deka_fonds .rangeMode .flatpickr-day{margin-top:1px}
+.deka_fonds .flatpickr-weekwrapper{display:inline-block;float:left}
+.deka_fonds .flatpickr-weekwrapper .flatpickr-weeks{padding:0 12px;box-shadow:1px 0 0 #e6e6e6}
+.deka_fonds .flatpickr-weekwrapper .flatpickr-weekday{float:none;width:100%;line-height:28px}
+.deka_fonds .flatpickr-weekwrapper span.flatpickr-day,.deka_fonds .flatpickr-weekwrapper span.flatpickr-day:hover{display:block;width:100%;max-width:none;color:rgba(57,57,57,0.3);background:transparent;cursor:default;border:0}
+.deka_fonds .flatpickr-innerContainer{display:block;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;margin-right:0}
+.deka_fonds .flatpickr-rContainer{display:inline-block;padding:0;-moz-box-sizing:border-box;box-sizing:border-box;margin-right:0}
+.deka_fonds .flatpickr-time{text-align:center;outline:0;display:block;height:0;line-height:40px;max-height:40px;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex}
+.deka_fonds .flatpickr-time:after{content:"";display:table;clear:both}
+.deka_fonds .flatpickr-time .numInputWrapper{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;width:40%;height:40px;float:left;margin-right:0;display:block}
+.deka_fonds .flatpickr-time .numInputWrapper span.arrowUp:after{border-bottom-color:#393939}
+.deka_fonds .flatpickr-time .numInputWrapper span.arrowDown:after{border-top-color:#393939}
+.deka_fonds .flatpickr-time.hasSeconds .numInputWrapper{width:26%}
+.deka_fonds .flatpickr-time.time24hr .numInputWrapper{width:49%}
+.deka_fonds .flatpickr-time input{background:transparent;box-shadow:none;border:0;border-radius:0;text-align:center;margin:0;padding:0;height:inherit;line-height:inherit;cursor:pointer;color:#393939;font-size:14px;position:relative;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_fonds .flatpickr-time input.flatpickr-hour{font-weight:bold}
+.deka_fonds .flatpickr-time input.flatpickr-minute,.deka_fonds .flatpickr-time input.flatpickr-second{font-weight:400}
+.deka_fonds .flatpickr-time input:focus{outline:0;border:0}
+.deka_fonds .flatpickr-time .flatpickr-time-separator,.deka_fonds .flatpickr-time .flatpickr-am-pm{height:inherit;display:inline-block;float:left;line-height:inherit;color:#393939;font-weight:bold;width:2%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}
+.deka_fonds .flatpickr-time .flatpickr-am-pm{outline:0;width:18%;cursor:pointer;text-align:center;font-weight:400}
+.deka_fonds .flatpickr-time .flatpickr-am-pm:hover,.deka_fonds .flatpickr-time .flatpickr-am-pm:focus{background:#f0f0f0}
+.deka_fonds .flatpickr-input[readonly]{cursor:pointer}
+@-webkit-keyframes deka_fonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_fonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);-moz-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_fonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);-moz-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_fonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@-moz-keyframes deka_fonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@keyframes deka_fonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@-webkit-keyframes deka_fonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_fonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_fonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_fonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@-moz-keyframes deka_fonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@keyframes deka_fonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@-webkit-keyframes deka_fonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_fonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_fonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_fonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@-moz-keyframes deka_fonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@keyframes deka_fonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@-webkit-keyframes deka_fonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+@-moz-keyframes deka_fonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+@keyframes deka_fonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+.deka_fonds .disclaimer ~ *{display:none}
+.deka_fonds .disclaimer.accepted{display:none}
+.deka_fonds .disclaimer.accepted ~ *{display:block;overflow:hidden}
+.deka_fonds .table.no-mobile-header td:before{display:none}
+.deka_fonds .error-message--fundssearch,.deka_fonds .error-message--products{padding-left:74px;position:relative}
+.deka_fonds .error-message--fundssearch:before,.deka_fonds .error-message--products:before{font-family:"Pictos-IF";position:absolute;left:20px;top:.2em;color:red;font-size:3em;content:"\0069"}
+.deka_fonds .fondssuche-filter button{border:0 none;background:0;padding:0;font-size:1em;line-height:28px;font-family:SparkasseRg,Arial,sans-serif;color:#777;cursor:pointer}
+.no-touch .deka_fonds .fondssuche-filter button:hover .ficon:before{color:#fff;background-color:#777}
+.deka_fonds .fondssuche-filter .fondssuche-filter__sword{display:inline-block;width:33.3333%}
+.deka_fonds .fondssuche-filter .fondssuche-filter__row{margin-right:-20px}
+.deka_fonds .fondssuche-filter .fondssuche-filter__row:after{content:"";clear:both;display:block}
+.deka_fonds .fondssuche-filter .fondssuche-filter__row:last-child{margin-bottom:-20px}
+.deka_fonds .fondssuche-filter .bline{width:100%}
+.deka_fonds .fondssuche-filter .bline .select{margin-right:0}
+.deka_fonds .fondssuche-filter .bline__no-title{margin-top:8px}
+.deka_fonds .fondssuche-filter .bline.hidden{margin-bottom:auto}
+.deka_fonds .fondssuche-filter .fondssuche-filter__column{float:left;display:block;width:33.3333%;-moz-box-sizing:border-box;box-sizing:border-box;padding-right:20px}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox{padding-top:1em;padding-bottom:4px;margin-bottom:20px}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox input{margin-top:8px;height:21px}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox label{display:inline-block}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox__title{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox input{display:none}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox span{margin-left:-4px}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox label{margin-left:10px;line-height:110%}
+.deka_fonds .fondssuche-filter .fondssuche-filter--reset{text-align:right}
+.no-touch .deka_fonds .fondssuche-filter .reset:hover{color:red}
+.no-touch .deka_fonds .fondssuche-filter .reset:hover .ficon:before{background:0;color:red}
+.deka_fonds .fondssuche-filter .reset .ficon:before{border:0 none;color:red}
+.deka_fonds .fondssuche-filter .fondssuche-filter--placeholder{padding-bottom:5px}
+.deka_fonds .fondssuche-filter .fondssuche-filter--morningstar{padding-bottom:113px}
+.deka_fonds .fondssuche-filter label{display:block}
+.deka_fonds .fondssuche-filter .hidden{display:none}
+.deka_fonds .fondssuche-filter .fondssuche-filter__select{display:block;width:100%}
+.deka_fonds .fondssuche-filter .fondssuche-filter__slider{margin-bottom:20px}
+.deka_fonds .fondssuche-filter input[type="text"],.deka_fonds .fondssuche-filter select,.deka_fonds .fondssuche-filter button{margin-bottom:20px}
+.deka_fonds .fondssuche-filter select,.deka_fonds .fondssuche-filter .select-wrap{width:100%}
+.deka_fonds .fondssuche-filter input[type="text"]{width:100%}
+@media(max-width:759px){.deka_fonds .fondssuche-filter .fondssuche-filter__column{width:50%}
+.deka_fonds .fondssuche-filter .fondssuche-filter--morningstar{padding-bottom:5px}
+}
+@media(max-width:549px){.deka_fonds .fondssuche-filter button[type="submit"]{margin-top:.25em}
+.deka_fonds .fondssuche-filter .fondssuche-filter__column{width:100%}
+.deka_fonds .fondssuche-filter .fondssuche-filter--placeholder{padding-bottom:0}
+.deka_fonds .fondssuche-filter .fondssuche-filter--checkbox__title{margin-bottom:0}
+.deka_fonds .fondssuche-filter .bline__no-title{margin-top:0}
+}
+.deka_fonds .bootstrap-select.btn-group{height:35px;margin:-7px 0 40px;width:100%;overflow:hidden;color:#666;border:2px solid #666;border-radius:5px;background-color:#fff;line-height:21px;-moz-box-sizing:border-box;box-sizing:border-box;display:block}
+@media(max-width:1079px){.deka_fonds .bootstrap-select.btn-group{height:30px;margin-top:-5px}
+}
+.deka_fonds .bootstrap-select .dropdown-menu.open{-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;border:2px solid #666;border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+.deka_fonds .bootstrap-select .dropdown-menu li{padding:2px 4px 2px 4px;cursor:pointer}
+.deka_fonds .bootstrap-select .dropdown-menu li a{display:inline-block;font-size:15px;line-height:21px;width:100%;color:#777}
+.deka_fonds .bootstrap-select .dropdown-menu li a:hover{text-decoration:none;color:red}
+.deka_fonds .bootstrap-select .dropdown-menu li .text{margin-left:1px}
+.deka_fonds .bootstrap-select .dropdown-menu.show-tick li{position:relative}
+.deka_fonds .bootstrap-select .dropdown-menu.show-tick li:before{content:'';display:inline-block;height:13px;width:13px;border:2px solid #666;border-radius:5px;position:absolute;pointer-events:none;font:13px/81% Pictos-IF;line-height:9px;top:4px;color:#fff}
+.deka_fonds .bootstrap-select .dropdown-menu.show-tick li.selected:before{content:"v";background-color:red}
+.deka_fonds .bootstrap-select .dropdown-menu.show-tick li .text{margin-left:21px;display:block}
+.deka_fonds .bootstrap-select .dropdown-menu.show-tick li .bold{font-weight:bold}
+.deka_fonds .bootstrap-select .dropdown-toggle{background:0;position:relative;width:100%;height:auto;padding:4px 21px 0 5px;margin:0;outline:0;text-align:left}
+.deka_fonds .bootstrap-select .dropdown-toggle:hover .filter-option{color:red;opacity:.7}
+.deka_fonds .bootstrap-select .dropdown-toggle .filter-option{display:block;font:18px SparkasseWeb,Helvetica,Arial,sans-serif;line-height:21px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:95%;padding-top:1px}
+@media(max-width:1079px){.deka_fonds .bootstrap-select .dropdown-toggle .filter-option{font-size:15px;line-height:16px}
+}
+.deka_fonds .bootstrap-select .caret{position:absolute;right:24px;top:16px}
+@media(max-width:1079px){.deka_fonds .bootstrap-select .caret{top:13px}
+}
+.deka_fonds .bootstrap-select .caret:after{border-top:9px solid #666;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;top:50%;margin-top:-4px}
+.deka_fonds .bootstrap-select.select-wrap>.select-wrap{display:none}
+.deka_fonds>.bootstrap-select.btn-group{display:none}
+.deka_fonds>.bootstrap-select.open{display:block;height:auto;border:0;z-index:3;overflow:visible;margin-top:-221px}
+@media(max-width:1079px){.deka_fonds>.bootstrap-select.open{margin-top:-134px}
+}
+@media(max-width:759px){.deka_fonds>.bootstrap-select.open{margin-top:-103px}
+}
+.deka_fonds>.bootstrap-select.open .dropdown-menu.inner{padding-top:2px}
+.deka_fonds .bline .bootstrap-select.select-modified{margin:0 0 20px}
+.deka_fonds .zertifikatesuche-filter.zip{width:100%}
+.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-container{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-20px}
+.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-row{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;width:100%;margin-right:0}
+.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column{width:33.333%;display:block}
+.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column:nth-of-type(1){width:66.666%}
+@media(max-width:759px){.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column:nth-of-type(1){width:100%}
+}
+@media(max-width:549px){.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column:nth-of-type(1){width:100%}
+}
+@media(max-width:759px){.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column{width:50%}
+}
+@media(max-width:549px){.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column{width:100%}
+}
+@media(max-width:759px){.deka_fonds .zertifikatesuche-filter.zip .zertifikatesuche-filter__filter-column.hide-for-mobile{display:none}
+}
+.deka_fonds .zertifikatesuche-filter.zip .disclaimer.accepted+div{overflow:visible}
+.deka_fonds .zertifikatesuche-filter label{display:inline-block}
+.deka_fonds .zertifikatesuche-filter input,.deka_fonds .zertifikatesuche-filter select,.deka_fonds .zertifikatesuche-filter .select-wrap{width:100%;margin-bottom:20px}
+.deka_fonds .zertifikatesuche-filter input[type=text]{margin-bottom:40px}
+.deka_fonds .zertifikatesuche-filter button{border:0 none;background:0;padding:0;font-size:1em;line-height:28px;font-family:SparkasseRg,Arial,sans-serif;color:#777;cursor:pointer}
+.no-touch .deka_fonds .zertifikatesuche-filter button:hover .ficon:before{color:#fff;background-color:#777}
+.no-touch .deka_fonds .zertifikatesuche-filter button[type="reset"]:hover{color:red}
+.no-touch .deka_fonds .zertifikatesuche-filter button[type="reset"]:hover .ficon:before{background:0;color:red}
+.deka_fonds .zertifikatesuche-filter button[type="reset"] .ficon:before{border:0 none;color:red}
+.deka_fonds .zertifikatesuche-filter .zertifikatesuche-btn-reset{width:100%;text-align:right;padding-top:6px}
+@media(max-width:549px){.deka_fonds .zertifikatesuche-filter .zertifikatesuche-btn-reset{display:none}
+}
+.deka_fonds .zertifikatesuche-filter .zertifikatesuche-btn-reset .ficon{margin:1px;width:22px}
+.deka_fonds .zertifikatesuche-filter__filter-row{margin-right:-20px}
+.deka_fonds .zertifikatesuche-filter__filter-row:after{content:"";clear:both;display:block}
+.deka_fonds .zertifikatesuche-filter__filter-column{width:50%;-moz-box-sizing:border-box;box-sizing:border-box;float:left;padding-right:20px}
+.deka_fonds .zertifikatesuche-filter__filter-column-checkbox{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;margin-top:7px}
+.deka_fonds .zertifikatesuche-filter__filter-column-checkbox input{visibility:hidden}
+.deka_fonds .zertifikatesuche-filter__filter-column-checkbox label{margin-left:10px;line-height:110%}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline{width:100%}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline .select{margin-right:0}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline .no-bottom-margin{margin-bottom:0}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline__input-text input{display:inline-block;width:100%}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper{margin-right:0;width:-moz-calc(50% - 14px);width:calc(50% - 14px)}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .flatpickr-calendar.static{top:-moz-calc(100% - 29px);top:calc(100% - 29px)}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .flatpickr-calendar.static.rightMost{left:-174px}
+@media(max-width:549px){.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .flatpickr-calendar.static.rightMost{left:-88px}
+}
+@media(max-width:480px){.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .flatpickr-calendar.static.rightMost{left:-117px}
+}
+@media screen and (max-width:410px){.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .flatpickr-calendar.static.rightMost{left:-167px}
+}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper ~ span{display:inline-block;margin:0 5px}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker .flatpickr-wrapper .numInput{margin-bottom:0}
+.deka_fonds .zertifikatesuche-filter__filter-column .bline.datepicker input{width:100%;margin-right:0}
+.deka_fonds .zertifikatesuche--ready .zertifikatesuche-filter--anzeige{display:none}
+.deka_fonds .zertifikatesuche-filter__filter-column--right{text-align:right}
+.deka_fonds .zertifikatesuche-anzeige{display:block}
+.deka_fonds .zertifikatesuche-anzeige__button{display:block;border:0 none;background:0;padding:10px;font-size:25px;font-family:SparkasseRg,Arial,sans-serif;color:#777;background-color:#e3e3e3;cursor:pointer;width:100%;margin-bottom:10px}
+.no-touch .deka_fonds .zertifikatesuche-anzeige__button:hover .ficon:before{color:#fff;background-color:#777}
+.deka_fonds .zertifikatesuche-anzeige__button.active{color:#fff;background-color:red}
+.deka_fonds .zertifikatesuche--zip .zertifikatesuche-anzeige__button{font-size:20px}
+.deka_fonds .zertifikatesuche--zip .searchpaging{margin:0 20px 20px 0;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+@media screen and (max-width:1079px){.deka_fonds .zertifikatesuche--zip .searchpaging{margin:0 10px 10px 0}
+}
+.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+@media screen and (min-width:1080px){.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries .bootstrap-select.btn-group{height:30px}
+.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries .bootstrap-select.btn-group .dropdown-toggle{padding-top:2px}
+.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries .bootstrap-select.btn-group .dropdown-toggle .caret:after{margin-top:-7px}
+}
+.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries>span{margin-right:5px}
+.deka_fonds .zertifikatesuche--zip .searchpaging .bootstrap-select.btn-group{margin:0;width:62px;border:0}
+.deka_fonds .zertifikatesuche--zip .searchpaging .bootstrap-select .dropdown-toggle{height:30px}
+@media screen and (max-width:752px){.deka_fonds .zertifikatesuche--zip .searchpaging .count{-webkit-box-ordinal-group:2;-webkit-order:1;-moz-box-ordinal-group:2;-ms-flex-order:1;order:1}
+.deka_fonds .zertifikatesuche--zip .searchpaging .pages-entries{-webkit-box-ordinal-group:3;-webkit-order:2;-moz-box-ordinal-group:3;-ms-flex-order:2;order:2}
+.deka_fonds .zertifikatesuche--zip .searchpaging .paging{-webkit-box-ordinal-group:4;-webkit-order:3;-moz-box-ordinal-group:4;-ms-flex-order:3;order:3;width:100%;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;text-align:center;margin-top:5px}
+}
+.deka_fonds .zertifikatesuche--zip .disclaimer.accepted+div{overflow:visible}
+.deka_fonds .zertifikatesuche--zip .disclaimer.accepted+div::after{content:"";clear:both;display:table}
+.deka_fonds .zertifikatesuche--zip .zertifikatesuche-filter__filter-column.zip-hidden{display:none}
+@media(max-width:549px){.deka_fonds .zertifikatesuche-filter__filter-column{float:none;width:100%}
+.deka_fonds .zertifikatesuche-filter label.zertifikatesuche-label__empty{display:none}
+}
+@media(max-width:759px){.deka_fonds .zertifikatesuche-filter__filter-column-checkbox{margin-top:0}
+}
+@media(max-width:999px){.deka_fonds .zertifikatesuche-anzeige{display:none}
+.deka_fonds .zertifikatesuche--ready .zertifikatesuche-filter--anzeige{display:block}
+}
+.deka_fonds .spinner{margin:100px auto;width:50px;height:40px;text-align:center;font-size:10px}
+.deka_fonds .spinner>div{background-color:#333;height:100%;width:6px;display:inline-block;-webkit-transform-origin:50% 100%;-moz-transform-origin:50% 100%;-ms-transform-origin:50% 100%;transform-origin:50% 100%;-webkit-animation:deka_fonds_stretchdelay 1.2s infinite ease-in-out;-moz-animation:deka_fonds_stretchdelay 1.2s infinite ease-in-out;animation:deka_fonds_stretchdelay 1.2s infinite ease-in-out}
+.deka_fonds .spinner .rect2{-webkit-animation-delay:-1.1s;-moz-animation-delay:-1.1s;animation-delay:-1.1s}
+.deka_fonds .spinner .rect3{-webkit-animation-delay:-1s;-moz-animation-delay:-1s;animation-delay:-1s}
+.deka_fonds .spinner .rect4{-webkit-animation-delay:-0.9s;-moz-animation-delay:-0.9s;animation-delay:-0.9s}
+.deka_fonds .spinner .rect5{-webkit-animation-delay:-0.8s;-moz-animation-delay:-0.8s;animation-delay:-0.8s}
+.deka_fonds .loading-overlay{display:none}
+.deka_fonds .loading .loading-overlay{display:block;position:absolute;left:0;top:0;z-index:10;background:rgba(240,240,240,0.6);width:100%;height:100%}
+@-webkit-keyframes deka_fonds_stretchdelay{0,40%,100%{-webkit-transform:scaleY(0.4)}
+20%{-webkit-transform:scaleY(1)}
+}
+@-moz-keyframes deka_fonds_stretchdelay{0,40%,100%{-moz-transform:scaleY(0.4);transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}
+20%{-moz-transform:scaleY(1);transform:scaleY(1);-webkit-transform:scaleY(1)}
+}
+@keyframes deka_fonds_stretchdelay{0,40%,100%{-moz-transform:scaleY(0.4);transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}
+20%{-moz-transform:scaleY(1);transform:scaleY(1);-webkit-transform:scaleY(1)}
+}
+.deka_fonds .updown{position:relative;padding-right:30px}
+.deka_fonds .updown .up{width:24px;display:inline-block;position:absolute;top:0}
+.deka_fonds .updown .up:before{border-bottom:9px solid #777;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;margin-top:-5px;right:0}
+.deka_fonds .updown .down{width:24px;display:inline-block;position:absolute;bottom:0}
+.deka_fonds .updown .down:before{border-top:9px solid #777;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;margin-top:-10px;right:0}
+.deka_fonds .updown input{margin-right:0}
+@media(max-width:999px){.deka_fonds .updown{padding-right:0}
+.deka_fonds .updown .up,.deka_fonds .updown .down{display:none}
+}
+.deka_fonds .overview{overflow:hidden;margin-right:-20px;margin-bottom:20px}
+.deka_fonds .overview .cbox:last-child{margin-bottom:0}
+.deka_fonds .overview .table td,.deka_fonds .overview .table th{width:33.333%}
+.deka_fonds .overview .table td.overview__zertifikate,.deka_fonds .overview .table th.overview__zertifikate{width:20%}
+.deka_fonds .overview .table td[colspan="2"],.deka_fonds .overview .table th[colspan="2"]{width:66.666%}
+.deka_fonds .overview .table thead tr{background:white}
+.deka_fonds .overview .table thead tr td,.deka_fonds .overview .table thead tr th{padding-bottom:0}
+.deka_fonds .overview .table tbody tr{background:white}
+.deka_fonds .overview .table tbody tr td,.deka_fonds .overview .table tbody tr th{padding-top:0}
+.deka_fonds .overview .info-table{position:relative;z-index:1}
+.deka_fonds .overview .info-table td:first-child,.deka_fonds .overview .info-table th:first-child{padding-left:0}
+.deka_fonds .overview .info-table .left{text-align:left}
+.deka_fonds .overview .info-table .right{text-align:right}
+.deka_fonds .overview .account-info{float:right;width:30%}
+.deka_fonds .overview .account-info a[rel="lightbox"]{display:inline-block;height:26px}
+.deka_fonds .overview .morningstar-rating{display:block;height:32px}
+@media(max-width:999px){.deka_fonds .overview{margin-right:-10px}
+.deka_fonds .overview .table td:not(.overview__zertifikate),.deka_fonds .overview .table th:not(.overview__zertifikate),.deka_fonds .overview .table td[colspan="2"],.deka_fonds .overview .table th[colspan="2"]{width:auto}
+.deka_fonds .overview .table.medium-equal td,.deka_fonds .overview .table.medium-equal th,.deka_fonds .overview .table.medium-equal td[colspan="2"],.deka_fonds .overview .table.medium-equal th[colspan="2"]{width:50%}
+.deka_fonds .overview .account-info{float:none;width:auto}
+.deka_fonds .overview .account-info>span{display:block}
+.deka_fonds .overview .morningstar-rating{display:inline}
+}
+@media(max-width:649px){.deka_fonds .overview .table tbody tr td,.deka_fonds .overview .table tbody tr th{padding-top:10px;padding-bottom:5px}
+.deka_fonds .overview .table tbody tr td.overview__zertifikate,.deka_fonds .overview .table tbody tr th.overview__zertifikate{width:auto}
+.deka_fonds .overview .table.medium-equal td,.deka_fonds .overview .table.medium-equal th,.deka_fonds .overview .table.medium-equal td[colspan="2"],.deka_fonds .overview .table.medium-equal th[colspan="2"]{width:auto}
+.deka_fonds .overview .info-table tr{display:block}
+.deka_fonds .overview .info-table td{display:block;padding-left:0}
+.deka_fonds .overview .mobile-right .morningstar-rating{padding-right:5px}
+}
+.deka_fonds .value.value-after.up:after,.deka_fonds .value.value-after.down:after,.deka_fonds .value.value-after.neutral:after{display:inline-block;font-family:Pictos-IF;margin-left:5px;vertical-align:bottom}
+.deka_fonds .value.value-after.up:after{content:"u"}
+.deka_fonds .value.value-after.down:after{content:"d"}
+.deka_fonds .value.value-after.neutral:after{content:" \2212"}
+.deka_fonds .value.value-before.up:before,.deka_fonds .value.value-before.down:before,.deka_fonds .value.value-before.neutral:before{display:inline-block;font-family:Pictos-IF;margin-left:5px;vertical-align:bottom}
+.deka_fonds .value.value-before.up:before{content:"u"}
+.deka_fonds .value.value-before.down:before{content:"d"}
+.deka_fonds .value.value-before.neutral:before{content:"\2212"}
+.deka_fonds .value.up{color:#85b82d}
+.deka_fonds .value.down{color:red}
+.deka_fonds .value.neutral{color:#777}
+.deka_fonds .morningstar-rating .star-full,.deka_fonds .morningstar-rating .star-empty{display:inline-block;width:25px}
+.deka_fonds .morningstar-rating .star-full:before,.deka_fonds .morningstar-rating .star-empty:before{font-family:Pictos-IF;content:'\f723';font-size:40px;letter-spacing:-10px;margin-left:-10px;vertical-align:bottom}
+.deka_fonds .morningstar-rating .star-full{color:red}
+.deka_fonds .morningstar-rating .star-empty{color:#777}
+.deka_fonds .morningstar-selector .morningstar-rating>span{cursor:pointer}
+.deka_fonds .morningstar-selector .morningstar-rating:hover>span{color:red}
+.deka_fonds .morningstar-selector .morningstar-rating>span:hover+span{color:#777}
+.deka_fonds .morningstar-selector .morningstar-rating>span:hover+span+span{color:#777}
+.deka_fonds .morningstar-selector .morningstar-rating>span:hover+span+span+span{color:#777}
+.deka_fonds .morningstar-selector .morningstar-rating>span:hover+span+span+span+span{color:#777}
+.deka_fonds .morningstar-selector .select{display:none}
+@media(max-width:999px){.deka_fonds .morningstar-rating .star-full,.deka_fonds .morningstar-rating .star-empty{width:15px;height:15px}
+.deka_fonds .morningstar-rating .star-full:before,.deka_fonds .morningstar-rating .star-empty:before{font-size:20px;margin-left:0}
+}
+.deka_fonds .range-slider{position:relative;padding:35px 0 22px;margin:0 15px;background-color:transparent}
+.deka_fonds .range-slider .slider-von,.deka_fonds .range-slider .slider-bis{position:absolute;top:2px}
+.deka_fonds .range-slider .slider-von{left:-15px}
+.deka_fonds .range-slider .slider-bis{right:-15px}
+.deka_fonds .range-slider .ui-slider-handle{display:block;position:absolute;background-color:#FFF;border:1px solid #e3e3e3;top:35px;width:30px;height:30px;margin-left:-15px;margin-top:-10px;border-radius:50%;cursor:pointer}
+.deka_fonds .range-slider .ui-slider-range{top:35px;height:10px;position:absolute;background-color:red}
+.deka_fonds .unit-input{display:inline;vertical-align:top;padding:7px 7px 0 0;line-height:20px}
+.deka_fonds .unit-input:after{color:#777;vertical-align:top;position:relative;top:1px}
+@media(max-width:999px){.deka_fonds .unit-input:after{top:0}
+}
+.deka_fonds .unit-input--percent:after{content:'%';margin-left:-1.5em}
+.deka_fonds .unit-input--percent input{padding-right:1.3em}
+.deka_fonds .unit-input--euro:after{content:'EUR';margin-left:-2.5em}
+.deka_fonds .unit-input--euro input{padding-right:2.3em}
+.deka_fonds .unit-input--of-month:after{content:'. des Monats';margin-left:-6.25em}
+.deka_fonds .unit-input--of-month input{padding-right:5.8em}
+.deka_fonds td{overflow:hidden}
+.deka_fonds th{font-weight:bold}
+.deka_fonds td sup,.deka_fonds th sup,.deka_fonds h3 sup{line-height:6px}
+.deka_fonds .cbox-half{width:50%}
+.deka_fonds .bar{display:block;background:#85b82d;height:8px}
+.deka_fonds p+h2,.deka_fonds ul+h2{margin-top:20px}
+.deka_fonds .separate{margin-top:20px}
+@media(max-width:649px){.deka_fonds .cbox-half,.deka_fonds .cbox-mobile-full{width:100%}
+}
+.deka_fonds .footnote .footnote__oneline{display:block}
+.deka_fonds .fondssuche{margin-top:50px;font:inherit}
+.deka_fonds .fondssuche .searchresult,.deka_fonds .fondssuche.searchresult{padding-left:0;padding-right:0}
+.deka_fonds .fondssuche .searchresult>.searchpaging,.deka_fonds .fondssuche.searchresult>.searchpaging{margin:24px;height:auto}
+.deka_fonds .fondssuche .searchresult>.searchpaging:after,.deka_fonds .fondssuche.searchresult>.searchpaging:after{clear:both;content:"";display:block}
+.deka_fonds .fondssuche-result .fondssuche-result__table__row{margin-top:.5em;margin-right:-20px}
+.deka_fonds .fondssuche-result .fondssuche-result__table__row:after{content:"";display:block;clear:both}
+.deka_fonds .fondssuche-result .if6_lightbox .if6_inner{padding:0}
+.deka_fonds .fondssuche-result .devide-top{margin-top:10px;padding-top:10px;border-top:2px solid #777}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell{width:33.3333%;display:block;float:left;padding-right:20px;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell h4{margin:0;font-size:18px;line-height:150%;font-weight:700}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell .textbutton{display:inline-block}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell .textbutton a{position:static}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell.buy-links{float:right;text-align:right;color:#777}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell.buy-links a{text-decoration:none;margin-left:.5em}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell.buy-links a:hover .ficon:before{color:#fff;background-color:#777}
+.deka_fonds .fondssuche-result .table{margin-right:0;margin-left:0;color:#777;font-size:14px}
+.deka_fonds .fondssuche-result .table:last-child{margin-bottom:0}
+.deka_fonds .fondssuche-result .table td:first-child{padding-left:0}
+.deka_fonds .fondssuche-result .table td:last-child{padding-right:0}
+.deka_fonds .fondssuche-result .table tbody tr:nth-child(even),.deka_fonds .fondssuche-result .table tbody tr:nth-child(odd){background-color:transparent}
+.deka_fonds .fondssuche-result td{padding-top:0;padding-bottom:0;line-height:27px}
+@media(max-width:999px){.deka_fonds .fondssuche{margin-top:20px}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell h4{display:inline-block;font-size:12px;font-weight:400}
+.deka_fonds .fondssuche-result td{line-height:150%}
+}
+@media(max-width:759px){.deka_fonds .fondssuche-result .fondssuche-result__table__row:after{clear:none}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell{width:50%;margin-bottom:10px}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell.buy-links{float:none;width:100%;clear:both}
+}
+@media(max-width:649px){.deka_fonds .fondssuche-result .table td{display:table-cell;text-align:right}
+.deka_fonds .fondssuche-result .table td.left{text-align:left}
+}
+@media(max-width:549px){.deka_fonds .fondssuche-result .fondssuche-result__table__row:last-child{margin-bottom:-0.5em}
+.deka_fonds .fondssuche-result .fonssuche-result__table__cell{float:none;width:100%;margin-bottom:.5em}
+.deka_fonds .fondssuche-result table{table-layout:fixed}
+.deka_fonds .fondssuche-result .table td.left:last-child{text-align:right}
+}
+.deka_fonds .deka_topsparplanfonds__container{overflow:auto}
+.deka_fonds .deka_topsparplanfonds__container .section.parbase{padding-right:10px}
+.deka_fonds .deka_topsparplanfonds__header{margin-bottom:25px}
+.deka_fonds .deka_topsparplanfonds__header h1{margin-bottom:5px}
+.deka_fonds .deka_topsparplanfonds__list .table{table-layout:fixed;font-size:18px;line-height:25px;margin:0}
+@media screen and (max-width:1079px){.deka_fonds .deka_topsparplanfonds__list .table{font-size:15px;line-height:150%}
+}
+.deka_fonds .deka_topsparplanfonds__list .table thead{display:table-header-group}
+@media(max-width:649px){.deka_fonds .deka_topsparplanfonds__list .table thead th{font-weight:bolder}
+.deka_fonds .deka_topsparplanfonds__list .table thead th:first-child,.deka_fonds .deka_topsparplanfonds__list .table thead th:nth-child(3){padding-left:0}
+.deka_fonds .deka_topsparplanfonds__list .table thead th:not(:first-child){display:inline-block}
+}
+.deka_fonds .deka_topsparplanfonds__list .table td,.deka_fonds .deka_topsparplanfonds__list .table th{text-align:left;text-overflow:ellipsis;overflow:hidden;vertical-align:top}
+.deka_fonds .deka_topsparplanfonds__list .table td:first-child,.deka_fonds .deka_topsparplanfonds__list .table th:first-child{width:50px;text-align:center}
+@media(max-width:649px){.deka_fonds .deka_topsparplanfonds__list .table td:first-child,.deka_fonds .deka_topsparplanfonds__list .table th:first-child{display:table-cell}
+}
+.deka_fonds .deka_topsparplanfonds__list .table td:last-child,.deka_fonds .deka_topsparplanfonds__list .table th:last-child{width:135px;text-align:right}
+@media screen and (max-width:649px){.deka_fonds .deka_topsparplanfonds__list .table td:last-child,.deka_fonds .deka_topsparplanfonds__list .table th:last-child{text-align:left}
+}
+@media(max-width:649px){.deka_fonds .deka_topsparplanfonds__list .table td:nth-child(-n+2){padding-top:10px;vertical-align:top}
+}
+.deka_fonds .deka_topsparplanfonds__list .table td>span{display:block;font-size:12px;line-height:19px}
+.deka_fonds .deka_topsparplanfonds__button{color:red;cursor:pointer;font-size:16px;text-decoration:none}
+@media screen and (max-width:1079px){.deka_fonds .deka_topsparplanfonds__button{font-size:14px}
+}
+.deka_fonds .deka_topsparplanfonds__button:after{content:">";font:21px/81% Pictos-IF;margin-left:1px;display:inline-block;width:21px;height:21px;border:1px solid red;border-radius:50%;color:red;text-align:center}
+.deka_fonds .deka_topsparplanfonds__separator{display:none}
+@media(max-width:649px){.deka_fonds .deka_topsparplanfonds__separator{display:inline}
+}
+.deka_fonds .cbox.cbox-medium .deka_topsparplanfonds__caption{display:none}
+@media screen and (max-width:958px){.deka_fonds .cbox.cbox-medium .deka_topsparplanfonds__caption{display:inline}
+}
+.deka_fonds .wertentwicklungsrechner{margin-top:50px;font:inherit}
+.deka_fonds .wertentwicklungsrechner .cbox{border-right:0}
+.deka_fonds .wertentwicklungsrechner--loading>.cbox{display:none}
+.deka_fonds .wertentwicklungsrechner .textbutton a{top:20px;bottom:auto}
+.deka_fonds .wertentwicklungsrechner .textbutton a.disabled{color:#e3e3e3;cursor:default}
+.deka_fonds .wertentwicklungsrechner .textbutton a.disabled:after{color:#e3e3e3;border-color:#e3e3e3}
+.deka_fonds .wertentwicklungsrechner .textbutton a.disabled:hover:after{background-color:transparent}
+.deka_fonds .wertentwicklungsrechner .if6_lightbox .if6_inner{padding:0}
+.deka_fonds .wertentwicklungsrechner .if6_lightbox .overview{margin-right:0}
+.deka_fonds .wertentwicklungsrechner .if6_lightbox .overview .info-table{margin-right:-20px}
+.deka_fonds .wertentwicklungsrechner .hidden{display:none}
+.deka_fonds .wertentwicklungsrechner .bline br{display:none}
+.deka_fonds .wertentwicklungsrechner .link-button{cursor:pointer;border:0;font-family:SparkasseRg,Arial,sans-serif;font-size:1em;color:#777;background:transparent;padding:5px 0}
+.deka_fonds .wertentwicklungsrechner-overview{display:table;table-layout:fixed}
+.deka_fonds .wertentwicklungsrechner-overview__item{display:table-cell;width:20%}
+.deka_fonds .wertentwicklungsrechner-overview h3{color:#000;font-size:20px;line-height:1}
+.deka_fonds .wertentwicklungsrechner-result{margin-top:50px}
+.deka_fonds .wertentwicklungsrechner-chart-container{position:relative;height:0;padding-bottom:56.25%}
+.deka_fonds .wertentwicklungsrechner-chart{position:absolute;height:100%;width:100%}
+.deka_fonds .wertentwicklungsrechner-linkbuttons{display:table;table-layout:fixed;margin-bottom:40px}
+.deka_fonds .wertentwicklungsrechner-linkbuttons a{color:#777;text-decoration:none;display:table-cell;width:33.3333%}
+.deka_fonds .wertentwicklungsrechner-linkbuttons a:after{content:">";font:18px/81% Pictos-IF;margin-left:10px;display:inline-block;width:18px;height:18px;border:1px solid #777;border-radius:50%;color:#777}
+@media(max-width:999px){.deka_fonds .wertentwicklungsrechner{margin-top:20px}
+.deka_fonds .wertentwicklungsrechner .if6_lightbox .overview .info-table{margin-right:0}
+.deka_fonds .wertentwicklungsrechner .bline+.bline{clear:both}
+.deka_fonds .wertentwicklungsrechner-result{margin-top:20px}
+}
+@media(max-width:759px){.deka_fonds .wertentwicklungsrechner .bline>*+label,.deka_fonds .wertentwicklungsrechner .bline>*+.label{width:200px;margin-right:20px}
+.deka_fonds .wertentwicklungsrechner .bline>input,.deka_fonds .wertentwicklungsrechner .bline>label,.deka_fonds .wertentwicklungsrechner .bline>.ficon,.deka_fonds .wertentwicklungsrechner .bline>input.not-first-input:first-of-type,.deka_fonds .wertentwicklungsrechner .bline>.ficon.not-first-icon:first-of-type{margin-top:10px}
+.deka_fonds .wertentwicklungsrechner .bline>input:first-of-type,.deka_fonds .wertentwicklungsrechner .bline>label:first-of-type,.deka_fonds .wertentwicklungsrechner .bline>.ficon:first-of-type{margin-top:0}
+.deka_fonds .wertentwicklungsrechner .bline br{display:block}
+.deka_fonds .wertentwicklungsrechner .ixl-large{width:-moz-calc(100% - 230px);width:calc(100% - 230px)}
+}
+@media(max-width:649px){.deka_fonds .wertentwicklungsrechner-overview{display:block}
+.deka_fonds .wertentwicklungsrechner-overview__item{display:block;width:100%;margin-bottom:20px}
+.deka_fonds .wertentwicklungsrechner-overview__item:last-child{margin-bottom:0}
+}
+@media(max-width:549px){.deka_fonds .wertentwicklungsrechner .textbutton a{top:auto}
+.deka_fonds .wertentwicklungsrechner .bline>label{display:block}
+.deka_fonds .wertentwicklungsrechner .bline br{display:none}
+.deka_fonds .wertentwicklungsrechner .bline>input,.deka_fonds .wertentwicklungsrechner .bline>label,.deka_fonds .wertentwicklungsrechner .bline>.ficon,.deka_fonds .wertentwicklungsrechner .bline>input.not-first-input:first-of-type,.deka_fonds .wertentwicklungsrechner .bline>.ficon.not-first-icon:first-of-type{margin-top:0}
+.deka_fonds .wertentwicklungsrechner .ixl-large{width:-moz-calc(100% - 10px);width:calc(100% - 10px)}
+.deka_fonds .wertentwicklungsrechner-linkbuttons{display:block;margin-bottom:10px}
+.deka_fonds .wertentwicklungsrechner-linkbuttons a{display:block;width:100%}
+}
+.deka_fonds .zertifikatesuche{margin-top:50px;font:inherit}
+.deka_fonds .zertifikatesuche .paging .js-pagination-goto,.deka_fonds .zertifikatesuche .paging .active{width:auto;min-width:20px;padding:0 5px}
+.deka_fonds .zertifikatesuche .paging .js-pagination-goto+.ellipsis,.deka_fonds .zertifikatesuche .paging .active+.ellipsis{background-color:#f0f0f0}
+.zertifikatesuche--zip .deka_fonds .zertifikatesuche-result{position:relative;overflow:hidden}
+.deka_fonds .zertifikatesuche-result table{table-layout:fixed;font-size:14px}
+.deka_fonds .zertifikatesuche-result__table-zip td:last-child:not(:only-child),.deka_fonds .zertifikatesuche-result__table-zip th:last-child:not(:only-child){text-align:right;padding-right:5px}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip td:last-child:not(:only-child),.deka_fonds .zertifikatesuche-result__table-zip th:last-child:not(:only-child){text-align:left}
+}
+.deka_fonds .zertifikatesuche-result__table-zip td:last-child:not(:only-child) a,.deka_fonds .zertifikatesuche-result__table-zip th:last-child:not(:only-child) a{padding-right:0}
+.deka_fonds .zertifikatesuche-result__table-zip th:last-child .btn-sort-active{margin-right:15px;display:inline-block}
+.deka_fonds .zertifikatesuche-result__table-zip tbody td{padding-top:5px;padding-bottom:10px}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip tbody td:before{content:attr(data-header);float:left;color:#000}
+}
+.deka_fonds .zertifikatesuche-result__table-zip tbody td.zertifikatesuche-result__basiswerte{text-align:left}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip tbody td.zertifikatesuche-result__basiswerte{padding-left:24px}
+}
+.deka_fonds .zertifikatesuche-result__table-zip tbody td.zertifikatesuche-result__basiswerte:before{content:none}
+.deka_fonds .zertifikatesuche-result__table-zip tbody td:only-child{padding-top:10px;padding-bottom:0}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip tbody td:only-child:before{content:'Produktname | ISIN \A Basiswerte';white-space:pre;display:inline-block;margin-bottom:3px}
+}
+.deka_fonds .zertifikatesuche-result__table-zip tbody:nth-child(odd) tr{background-color:#fff}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip tbody:nth-child(odd) tr{background-color:#f0f0f0}
+}
+.deka_fonds .zertifikatesuche-result__table-zip tbody:nth-child(even) tr{background-color:#f0f0f0}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__table-zip tbody:nth-child(even) tr{background-color:#fff}
+}
+.deka_fonds .zertifikatesuche-result td,.deka_fonds .zertifikatesuche-result th{text-align:left;width:75px;line-height:27px}
+.deka_fonds .zertifikatesuche-result td>p,.deka_fonds .zertifikatesuche-result th>p{margin-top:0}
+.deka_fonds .zertifikatesuche-result th,.deka_fonds .zertifikatesuche-result th:last-child{vertical-align:bottom;line-height:1.5;padding-right:15px}
+.deka_fonds .zertifikatesuche-result .right{text-align:right}
+.deka_fonds .zertifikatesuche-result .auto-width{width:auto}
+.deka_fonds .zertifikatesuche-result .nobr{white-space:nowrap}
+.deka_fonds .zertifikatesuche-result .wide{width:21%}
+.deka_fonds .zertifikatesuche-result td:first-child,.deka_fonds .zertifikatesuche-result th:first-child{width:25%}
+@media(max-width:839px){.deka_fonds .zertifikatesuche-result td:first-child,.deka_fonds .zertifikatesuche-result th:first-child{width:15%}
+}
+@media(max-width:839px){.deka_fonds .zertifikatesuche-result td:first-child,.deka_fonds .zertifikatesuche-result th:first-child{width:13%}
+}
+.deka_fonds .zertifikatesuche-result .disabled{color:#777}
+.deka_fonds .zertifikatesuche-result__name{text-overflow:ellipsis;white-space:nowrap;display:inline-block;font-weight:bold;max-width:100%;overflow:hidden}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__name{padding-right:5px}
+}
+.deka_fonds .zertifikatesuche-result__isin{margin-left:5px;margin-right:50px}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__isin{margin-left:0}
+}
+.deka_fonds .zertifikatesuche-result__isin:before{content:'| ';display:inline-block;margin-right:5px}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__isin:before{content:none}
+}
+.deka_fonds .zertifikatesuche-result__link{text-decoration:none;position:relative;margin-right:20px;max-width:90%}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__link{display:inline-block}
+}
+.deka_fonds .zertifikatesuche-result__link.icon-before{padding-left:18px;margin-right:0;white-space:nowrap;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__link.icon-before{padding-right:10px}
+}
+.deka_fonds .zertifikatesuche-result__link.icon-before:before{content:">";left:-7px;margin-left:5px}
+.deka_fonds .zertifikatesuche-result__link.icon-before:after{content:none}
+.deka_fonds .zertifikatesuche-result__link:after,.deka_fonds .zertifikatesuche-result__link:before{content:">";font:14px/81% Pictos-IF;margin-left:4px;display:inline-block;height:14px;width:14px;border:1px solid red;border-radius:50%;color:red;text-align:center;position:absolute;top:5px}
+@media(max-width:999px){.deka_fonds .zertifikatesuche-result__link:after,.deka_fonds .zertifikatesuche-result__link:before{top:2px}
+}
+.deka_fonds .zertifikatesuche-result__link:before{content:none}
+.deka_fonds .zertifikatesuche-result__link:hover{color:red}
+.deka_fonds .zertifikatesuche-result__link.kaufen{margin-left:10px;margin-right:0;padding-right:20px}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__link.kaufen{display:inline;width:auto;position:absolute;top:8px;margin-right:14px;right:0}
+}
+.deka_fonds .zertifikatesuche-result__wrapper{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result__wrapper{display:inline-block;width:100%}
+.deka_fonds .zertifikatesuche-result__wrapper a{display:inline-block;width:93%}
+}
+.deka_fonds .zertifikatesuche-result__produktname{position:relative}
+.deka_fonds .zertifikatesuche-result .loading-overlay{position:fixed;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.deka_fonds .zertifikatesuche-result .btn-sort{text-decoration:none;position:relative;display:inline-block}
+.deka_fonds .zertifikatesuche-result .btn-sort-von{margin-right:15px}
+.deka_fonds .zertifikatesuche-result .btn-sort-von.btn-sort.btn-sort-active{margin-right:22px;padding-right:5px}
+.deka_fonds .zertifikatesuche-result .btn-sort:hover{color:red}
+.deka_fonds .zertifikatesuche-result .btn-sort-icon{position:absolute;top:-2px;right:0;display:none}
+.deka_fonds .zertifikatesuche-result .btn-sort-active.btn-sort{padding-right:7px}
+.deka_fonds .zertifikatesuche-result .btn-sort-active.btn-sort-produktname{margin-right:12px}
+.deka_fonds .zertifikatesuche-result .btn-sort-active .btn-sort-icon{display:inline-block;width:5px}
+.deka_fonds .zertifikatesuche-result .btn-sort-active .btn-sort-icon:before,.deka_fonds .zertifikatesuche-result .btn-sort-active .btn-sort-icon:after{content:">";font:20px/81% Pictos-IF;display:inline-block;height:20px;width:20px;color:#ccc;text-align:center;position:absolute}
+.deka_fonds .zertifikatesuche-result .btn-sort-active .btn-sort-icon:before{bottom:-18px;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg)}
+.deka_fonds .zertifikatesuche-result .btn-sort-active .btn-sort-icon:after{top:6px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}
+.deka_fonds .zertifikatesuche-result .btn-sort-active-ascending .btn-sort-icon:before{color:red}
+.deka_fonds .zertifikatesuche-result .btn-sort-active-descending .btn-sort-icon:after{color:red}
+@media(max-width:999px){.deka_fonds .zertifikatesuche{margin-top:20px}
+.deka_fonds .zertifikatesuche-result td{line-height:150%}
+}
+@media(max-width:649px){.deka_fonds .zertifikatesuche-result td:first-child,.deka_fonds .zertifikatesuche-result th:first-child{width:auto}
+.deka_fonds .zertifikatesuche-result td,.deka_fonds .zertifikatesuche-result th{width:100%}
+.deka_fonds .zertifikatesuche-result td:last-child,.deka_fonds .zertifikatesuche-result th:last-child{width:100%}
+.deka_fonds .zertifikatesuche-result td{text-align:left}
+.deka_fonds .zertifikatesuche-result td>a,.deka_fonds .zertifikatesuche-result td>p,.deka_fonds .zertifikatesuche-result td>span{clear:both;display:block}
+.deka_fonds .zertifikatesuche-result td:before{display:block;font-weight:bold}
+.deka_fonds .zertifikatesuche-result .wide{width:100%}
+.deka_fonds .zertifikatesuche-result .right{text-align:left}
+.deka_fonds .zertifikatesuche-result__link:after{top:3px}
+}
+.deka_fonds .table.left td{text-align:left}
+.deka_fonds .zertifikate__btn{background-color:#fff;color:#666;font-family:Sparkasse Web,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:500;padding:3px 20px;font-style:normal;border-radius:8px;border:1px solid #666;font-size:14px;line-height:1.5;cursor:pointer;display:inline-block;text-align:center;margin:0 6px 12px 1px;height:32px}
+.deka_fonds .zertifikate__btn:hover:not(:disabled){border-color:red;color:red;border-width:2px;margin:0 5px 5px 0}
+.deka_fonds .zertifikate__btn:active,.deka_fonds .zertifikate__btn:focus{outline:0}
+.deka_fonds .zertifikate__btn:disabled{color:#e3e3e3;border-color:#e3e3e3;cursor:default}
+.deka_fonds .zertifikate__btn.active{background-color:red;border-color:transparent;color:#fff;border-width:2px;margin:0 5px 5px 0}
+.deka_fonds .zertifikate__btn-combined{margin:10px 0}
+.deka_fonds .zertifikate__btn-back.primary.section a:after{content:none}
+.deka_fonds .zertifikate__btn-back.primary.section a:before{content:">";font:21px/81% Pictos-IF;margin-right:7px;color:#fff;display:inline-block;width:21px;height:21px;border:1px solid #fff;border-radius:50%;text-align:center;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.deka_fonds .zertifikate__warning{font-weight:bold}
+.deka_fonds .zertifikate__separator td{position:relative;padding:0;height:40px}
+.deka_fonds .zertifikate__separator td:after{content:'';display:inline-block;width:100%;border:1px solid #f0f0f0;bottom:2px;position:relative}
+.deka_fonds .zertifikate__separator+.zertifikate__separator{display:none}
+.deka_fonds .zertifikate__separator:nth-child(even){background-color:#fff}
+@media(max-width:649px){.deka_fonds .zertifikate__separator td:nth-child(2){display:none}
+}
+.deka_fonds .zertifikate__textbutton:hover{color:red}
+.deka_fonds .zertifikate__textbutton:hover a:before{background-color:red;color:#fff}
+.deka_fonds .zertifikate__textbutton a{text-decoration:none}
+.deka_fonds .zertifikate__textbutton a:before{content:"<";font:21px/81% Pictos-IF;margin-right:7px;display:inline-block;height:21px;width:21px;border:1px solid red;border-radius:50%;color:red;text-align:center}
+.deka_fonds .zertifikate__text-small{font-size:12px;line-height:1.7}
+.deka_fonds .zertifikate__if6_buttonline{padding-top:0}
+.deka_fonds .zertifikate__if6_buttonline .buttonline_inner{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+@media(max-width:480px){.deka_fonds .zertifikate__if6_buttonline .buttonline_inner{display:block}
+}
+.deka_fonds .zertifikate__if6_buttonline .buttonline_inner .primary{margin-bottom:20px}
+.deka_fonds .accordeon-content-publikationen table td:before{display:none}
+.deka_fonds #accordeon-content-basiswert table,.deka_fonds #accordeon-content-stammdaten table{table-layout:fixed}
+.deka_fonds #accordeon-content-ueberblick span.darkgrey{font:15px SparkasseWeb,Helvetica,Arial,sans-serif}
+.deka_fonds #accordeon-content-zinsen .table.overflow,.deka_fonds #accordeon-content-logbuch .table.overflow,.deka_fonds #accordeon-content-beobachtungszeitraeume .table.overflow,.deka_fonds #accordeon-content-beobachtungstage .table.overflow{overflow:auto}
+.deka_fonds #accordeon-content-zinsen .table tr.highlight,.deka_fonds #accordeon-content-logbuch .table tr.highlight,.deka_fonds #accordeon-content-beobachtungszeitraeume .table tr.highlight,.deka_fonds #accordeon-content-beobachtungstage .table tr.highlight{background-color:#666}
+.deka_fonds #accordeon-content-zinsen .table tr.highlight td,.deka_fonds #accordeon-content-zinsen .table tr.highlight td:before,.deka_fonds #accordeon-content-logbuch .table tr.highlight td,.deka_fonds #accordeon-content-logbuch .table tr.highlight td:before,.deka_fonds #accordeon-content-beobachtungszeitraeume .table tr.highlight td,.deka_fonds #accordeon-content-beobachtungszeitraeume .table tr.highlight td:before,.deka_fonds #accordeon-content-beobachtungstage .table tr.highlight td,.deka_fonds #accordeon-content-beobachtungstage .table tr.highlight td:before{color:#FFF}
+.deka_fonds #accordeon-content-zinsen th,.deka_fonds #accordeon-content-zinsen td,.deka_fonds #accordeon-content-logbuch th,.deka_fonds #accordeon-content-logbuch td,.deka_fonds #accordeon-content-beobachtungszeitraeume th,.deka_fonds #accordeon-content-beobachtungszeitraeume td,.deka_fonds #accordeon-content-beobachtungstage th,.deka_fonds #accordeon-content-beobachtungstage td{white-space:normal;text-align:left;vertical-align:bottom}
+.deka_fonds #accordeon-content-zinsen th:before,.deka_fonds #accordeon-content-zinsen td:before,.deka_fonds #accordeon-content-logbuch th:before,.deka_fonds #accordeon-content-logbuch td:before,.deka_fonds #accordeon-content-beobachtungszeitraeume th:before,.deka_fonds #accordeon-content-beobachtungszeitraeume td:before,.deka_fonds #accordeon-content-beobachtungstage th:before,.deka_fonds #accordeon-content-beobachtungstage td:before{float:none;display:block}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__nr{min-width:40px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-zinsen .zinsperiode__nr{min-width:30px}
+}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__zeitraum{min-width:293px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-zinsen .zinsperiode__zeitraum{min-width:240px}
+}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__zinsfestlegungstag,.deka_fonds #accordeon-content-zinsen .zinsperiode__zinszahlungstag{min-width:180px}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__zinssatzZinsBetrag{min-width:156px}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__zeilrueckzahlung{min-width:152px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-zinsen .zinsperiode__zeilrueckzahlung{min-width:137px}
+}
+.deka_fonds #accordeon-content-zinsen .zinsperiode__zeilrueckzahlung.long{min-width:217px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-zinsen .zinsperiode__zeilrueckzahlung.long{min-width:196px}
+}
+.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__nr{min-width:40px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__nr{min-width:30px}
+}
+.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__zeitraum{min-width:222px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__zeitraum{min-width:190px}
+}
+.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__barriere{min-width:293px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungszeitraeume .beobachtungszeitraeume__barriere{min-width:240px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__nr{min-width:40px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__nr{min-width:30px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__datum{min-width:165px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__datum{min-width:130px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__zilgungsschwelle{min-width:210px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__zilgungsschwelle{min-width:160px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__rueckzahlungstermin{min-width:300px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__rueckzahlungstermin{min-width:240px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__zinsbetrag{min-width:120px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__zinsbetrag{min-width:85px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__barriere{min-width:130px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__barriere{min-width:100px}
+}
+.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__barriere-verletzt{min-width:167px}
+@media screen and (max-width:1070px){.deka_fonds #accordeon-content-beobachtungstage .beobachtungstage__barriere-verletzt{min-width:139px}
+}
+.deka_fonds #accordeon-content-logbuch td{vertical-align:top}
+.deka_fonds .checkbox-label{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;margin-bottom:3px}
+.deka_fonds .checkbox-label .checkbox,.deka_fonds .checkbox-label input{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}
+.deka_fonds .checkbox-label .zip-chartlink{margin-left:10px}
+.deka_fonds .checkbox-indent{margin-left:30px}
+.deka_fonds .checkbox-indent__wrapper.disabled{opacity:.3;cursor:default;pointer-events:none}
+.deka_fonds .zip-chartlink{position:relative;padding-left:10px;display:inline-block;max-width:450px}
+.deka_fonds .zip-chartlink:before{position:absolute;left:0;top:0;bottom:3px;width:2px;background:black;content:'';display:block}
+.deka_fonds .zip-chartlink-1:before{background:#ff8f00}
+.deka_fonds .zip-chartlink-2:before{background:#9b348e}
+.deka_fonds .zip-chartlink-3:before{background:#8cd000}
+.deka_fonds .zip-chartlink-4:before{background:#00acd3}
+.deka_fonds .zip-chartlink-indent-1:before{background:#009864}
+.deka_fonds .zip-chartlink-indent-2:before{background:#2c57d2}
+.deka_fonds .zertifikate-chart{height:340px}

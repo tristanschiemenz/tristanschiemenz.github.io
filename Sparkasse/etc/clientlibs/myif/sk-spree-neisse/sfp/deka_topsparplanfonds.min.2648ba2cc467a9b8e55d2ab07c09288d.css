@@ -1,0 +1,568 @@
+.deka_topsparplanfonds .accordeon-headline{background:#e3e3e3 none repeat scroll 0 0;margin-right:20px;cursor:pointer;vertical-align:middle;margin-bottom:10px}
+.deka_topsparplanfonds .accordeon-headline h2{height:40px;line-height:40px;display:inline-block;padding:0 0 0 35px;margin:10px 0;overflow:hidden;position:relative;-ms-user-select:none;user-select:none;-moz-user-select:none;-webkit-user-select:none}
+.deka_topsparplanfonds .accordeon-headline h2:before{font-family:Pictos-IF;content:">";position:absolute;left:10px}
+.deka_topsparplanfonds .accordeon-headline+.accordeon-content{display:none;opacity:0}
+.deka_topsparplanfonds .accordeon-headline.active{margin-bottom:20px;background-color:#fd0d1b}
+.deka_topsparplanfonds .accordeon-headline.active h2{color:#FFF}
+.deka_topsparplanfonds .accordeon-headline.active h2:before{content:"d"}
+.deka_topsparplanfonds .accordeon-headline.active+.accordeon-content{display:block;opacity:1}
+.deka_topsparplanfonds .accordeon-content{overflow:hidden}
+.deka_topsparplanfonds .accordeon-content p+.cbox{margin-top:0}
+.deka_topsparplanfonds .accordeon-content p+.cbox-small,.deka_topsparplanfonds .accordeon-content p+.cbox-medium{margin-top:0}
+.deka_topsparplanfonds .accordeon-content p+.cbox-small+.cbox,.deka_topsparplanfonds .accordeon-content p+.cbox-medium+.cbox{margin-top:0}
+.deka_topsparplanfonds .accordeon-content__full-width span{display:block;padding-bottom:10px}
+.deka_topsparplanfonds .accordeon-wrapper{margin-right:-20px}
+.deka_topsparplanfonds .accordeon-buttons{margin-top:10px;text-align:right;font-family:'Sparkasse Rg',sans-serif;font-size:18px;color:#777;margin-bottom:30px;margin-right:20px}
+.deka_topsparplanfonds .accordeon-buttons .ficon{width:auto;height:auto}
+.deka_topsparplanfonds .accordeon-close-all,.deka_topsparplanfonds .accordeon-open-all{display:inline}
+.deka_topsparplanfonds .accordeon-open-all{margin-right:20px}
+.deka_topsparplanfonds .accordeon-close-all,.deka_topsparplanfonds .accordeon-open-all{display:inline-block;line-height:40px;height:40px;padding-left:40px;cursor:pointer}
+@media(max-width:999px){.deka_topsparplanfonds .accordeon-buttons{margin-right:10px}
+.deka_topsparplanfonds .accordeon-headline{margin-right:10px}
+.deka_topsparplanfonds .accordeon-wrapper{margin-right:-10px}
+}
+.deka_topsparplanfonds .left{text-align:left}
+@media(max-width:649px){.deka_topsparplanfonds .mobile-left{text-align:left !important}
+}
+.deka_topsparplanfonds .right{text-align:right}
+@media(max-width:649px){.deka_topsparplanfonds .mobile-right{text-align:right !important}
+}
+.deka_topsparplanfonds .autocomplete--open{border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom:0;margin-bottom:2px}
+.deka_topsparplanfonds .autocomplete--open+.autocomplete-result-list{display:block}
+.deka_topsparplanfonds .autocomplete-result-list{margin-top:-2px;position:absolute;display:none;z-index:50;width:305px;padding:0;border:2px solid #777;border-top:0;border-radius:0 0 5px 5px;background-color:#fff;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_topsparplanfonds .autocomplete-result-list li:before{content:'';display:none}
+.deka_topsparplanfonds .autocomplete-result-list mark{background-color:transparent;color:red}
+.deka_topsparplanfonds .ixl+.autocomplete-result-list li{padding:5px;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;color:#777;white-space:nowrap;overflow-x:hidden;text-overflow:ellipsis;cursor:pointer}
+.deka_topsparplanfonds .ixl+.autocomplete-result-list li:first-child{border-top:2px solid #e3e3e3}
+.deka_topsparplanfonds .ixl+.autocomplete-result-list li:hover,.deka_topsparplanfonds .ixl+.autocomplete-result-list li.autocomplete-item--selected{background-color:#e3e3e3;color:#000}
+.deka_topsparplanfonds .bline .autocomplete-result-list:nth-child(3){left:260px}
+@media(max-width:999px){.deka_topsparplanfonds .autocomplete-result-list li{line-height:15px}
+.deka_topsparplanfonds .bline .autocomplete-result-list:nth-child(3){width:-moz-calc(100% - 250px);width:calc(100% - 250px);left:230px}
+}
+@media(max-width:549px){.deka_topsparplanfonds .autocomplete-result-list{margin-top:-9px}
+.deka_topsparplanfonds .bline .autocomplete-result-list:nth-child(3){width:auto;left:10px;right:20px}
+.deka_topsparplanfonds .autocomplete--open{margin-bottom:9px}
+}
+.deka_topsparplanfonds .context-switcher__button--active:before{color:#fff;background-color:#777}
+.deka_topsparplanfonds .context-switcher__menu{list-style:none;padding:none;text-align:right;margin-bottom:20px}
+.deka_topsparplanfonds .context-switcher__menu-item{display:inline-block}
+.deka_topsparplanfonds .context-switcher__menu-item:before{content:none}
+.deka_topsparplanfonds .context-switcher__content--hidden{display:none}
+.deka_topsparplanfonds .flatpickr-calendar{background:transparent;overflow:hidden;max-height:0;opacity:0;visibility:hidden;text-align:center;padding:0;-webkit-animation:none;-moz-animation:none;animation:none;direction:ltr;border:0;font-size:14px;line-height:24px;border-radius:5px;position:absolute;width:307.875px;-moz-box-sizing:border-box;box-sizing:border-box;-ms-touch-action:manipulation;touch-action:manipulation;background:#fff;box-shadow:1px 0 0 #e6e6e6,-1px 0 0 #e6e6e6,0 1px 0 #e6e6e6,0 -1px 0 #e6e6e6,0 3px 13px rgba(0,0,0,0.08);margin-right:0}
+.deka_topsparplanfonds .flatpickr-calendar.open,.deka_topsparplanfonds .flatpickr-calendar.inline{opacity:1;visibility:visible;overflow:visible;max-height:640px}
+.deka_topsparplanfonds .flatpickr-calendar.open{display:inline-block;z-index:99999}
+.deka_topsparplanfonds .flatpickr-calendar.animate.open{-webkit-animation:deka_topsparplanfonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeInDown 300ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-calendar.inline{display:block;position:relative;top:2px}
+.deka_topsparplanfonds .flatpickr-calendar.static{position:absolute;top:-moz-calc(100% + 2px);top:calc(100% + 2px);left:0}
+.deka_topsparplanfonds .flatpickr-calendar.static.open{z-index:999;display:block}
+.deka_topsparplanfonds .flatpickr-calendar.hasWeeks{width:auto}
+.deka_topsparplanfonds .flatpickr-calendar .hasWeeks .dayContainer,.deka_topsparplanfonds .flatpickr-calendar .hasTime .dayContainer{border-bottom:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.deka_topsparplanfonds .flatpickr-calendar .hasWeeks .dayContainer{border-left:0}
+.deka_topsparplanfonds .flatpickr-calendar.showTimeInput.hasTime .flatpickr-time{height:40px;border-top:1px solid #e6e6e6}
+.deka_topsparplanfonds .flatpickr-calendar.noCalendar.hasTime .flatpickr-time{height:auto}
+.deka_topsparplanfonds .flatpickr-calendar:before,.deka_topsparplanfonds .flatpickr-calendar:after{position:absolute;display:block;pointer-events:none;border:solid transparent;content:'';height:0;width:0;left:22px}
+.deka_topsparplanfonds .flatpickr-calendar.rightMost:before,.deka_topsparplanfonds .flatpickr-calendar.rightMost:after{left:auto;right:22px}
+.deka_topsparplanfonds .flatpickr-calendar:before{border-width:5px;margin:0 -5px}
+.deka_topsparplanfonds .flatpickr-calendar:after{border-width:4px;margin:0 -4px}
+.deka_topsparplanfonds .flatpickr-calendar.arrowTop:before,.deka_topsparplanfonds .flatpickr-calendar.arrowTop:after{bottom:100%}
+.deka_topsparplanfonds .flatpickr-calendar.arrowTop:before{border-bottom-color:#e6e6e6}
+.deka_topsparplanfonds .flatpickr-calendar.arrowTop:after{border-bottom-color:#fff}
+.deka_topsparplanfonds .flatpickr-calendar.arrowBottom:before,.deka_topsparplanfonds .flatpickr-calendar.arrowBottom:after{top:100%}
+.deka_topsparplanfonds .flatpickr-calendar.arrowBottom:before{border-top-color:#e6e6e6}
+.deka_topsparplanfonds .flatpickr-calendar.arrowBottom:after{border-top-color:#fff}
+.deka_topsparplanfonds .flatpickr-calendar:focus{outline:0}
+.deka_topsparplanfonds .flatpickr-wrapper{position:relative;display:inline-block}
+.deka_topsparplanfonds .flatpickr-month{display:block;background:transparent;color:rgba(0,0,0,0.9);fill:rgba(0,0,0,0.9);height:28px;line-height:1;text-align:center;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;overflow:hidden;margin-right:0}
+.deka_topsparplanfonds .flatpickr-prev-month,.deka_topsparplanfonds .flatpickr-next-month{text-decoration:none;cursor:pointer;position:absolute;top:0;line-height:16px;height:28px;padding:10px -moz-calc(3.57% - 1.5px);padding:10px calc(3.57% - 1.5px);z-index:3}
+.deka_topsparplanfonds .flatpickr-prev-month i,.deka_topsparplanfonds .flatpickr-next-month i{position:relative}
+.deka_topsparplanfonds .flatpickr-prev-month.flatpickr-prev-month,.deka_topsparplanfonds .flatpickr-next-month.flatpickr-prev-month{left:0}
+.deka_topsparplanfonds .flatpickr-prev-month.flatpickr-next-month,.deka_topsparplanfonds .flatpickr-next-month.flatpickr-next-month{right:0}
+.deka_topsparplanfonds .flatpickr-prev-month:hover,.deka_topsparplanfonds .flatpickr-next-month:hover{color:#959ea9}
+.deka_topsparplanfonds .flatpickr-prev-month:hover svg,.deka_topsparplanfonds .flatpickr-next-month:hover svg{fill:#f64747}
+.deka_topsparplanfonds .flatpickr-prev-month svg,.deka_topsparplanfonds .flatpickr-next-month svg{width:14px}
+.deka_topsparplanfonds .flatpickr-prev-month svg path,.deka_topsparplanfonds .flatpickr-next-month svg path{-webkit-transition:fill .1s;-moz-transition:fill .1s;transition:fill .1s;fill:inherit}
+.deka_topsparplanfonds .numInputWrapper{position:relative;height:auto}
+.deka_topsparplanfonds .numInputWrapper input,.deka_topsparplanfonds .numInputWrapper span{display:inline-block}
+.deka_topsparplanfonds .numInputWrapper input{width:100%}
+.deka_topsparplanfonds .numInputWrapper input::-ms-clear{display:none}
+.deka_topsparplanfonds .numInputWrapper span{position:absolute;right:0;width:14px;padding:0 4px 0 2px;height:50%;line-height:50%;opacity:0;cursor:pointer;border:1px solid rgba(57,57,57,0.05);-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_topsparplanfonds .numInputWrapper span:hover{background:rgba(0,0,0,0.1)}
+.deka_topsparplanfonds .numInputWrapper span:active{background:rgba(0,0,0,0.2)}
+.deka_topsparplanfonds .numInputWrapper span:after{display:block;content:"";position:absolute;top:33%}
+.deka_topsparplanfonds .numInputWrapper span.arrowUp{top:0;border-bottom:0}
+.deka_topsparplanfonds .numInputWrapper span.arrowUp:after{border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:4px solid rgba(57,57,57,0.6)}
+.deka_topsparplanfonds .numInputWrapper span.arrowDown{top:50%}
+.deka_topsparplanfonds .numInputWrapper span.arrowDown:after{border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid rgba(57,57,57,0.6)}
+.deka_topsparplanfonds .numInputWrapper span svg{width:inherit;height:auto}
+.deka_topsparplanfonds .numInputWrapper span svg path{fill:rgba(0,0,0,0.5)}
+.deka_topsparplanfonds .numInputWrapper:hover{background:rgba(0,0,0,0.05)}
+.deka_topsparplanfonds .numInputWrapper:hover span{opacity:1}
+.deka_topsparplanfonds .flatpickr-current-month{font-size:135%;line-height:inherit;font-weight:300;color:inherit;position:absolute;width:75%;left:12.5%;padding:6.16px 0 0 0;line-height:1;height:28px;display:inline-block;text-align:center;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);margin-right:0}
+.deka_topsparplanfonds .flatpickr-current-month.slideLeft{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);-webkit-animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-current-month.slideLeftNew{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);-webkit-animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideLeftNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-current-month.slideRight{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);-webkit-animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeOut 400ms ease,deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-current-month.slideRightNew{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeIn 400ms ease,deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-current-month span.cur-month{font-family:inherit;font-weight:700;color:inherit;display:inline-block;margin-left:.5ch;padding:0}
+.deka_topsparplanfonds .flatpickr-current-month span.cur-month:hover{background:rgba(0,0,0,0.05)}
+.deka_topsparplanfonds .flatpickr-current-month .numInputWrapper{width:6ch;width:7ch\0;display:inline-block}
+.deka_topsparplanfonds .flatpickr-current-month .numInputWrapper span.arrowUp:after{border-bottom-color:rgba(0,0,0,0.9)}
+.deka_topsparplanfonds .flatpickr-current-month .numInputWrapper span.arrowDown:after{border-top-color:rgba(0,0,0,0.9)}
+.deka_topsparplanfonds .flatpickr-current-month input.cur-year{background:transparent;-moz-box-sizing:border-box;box-sizing:border-box;color:inherit;cursor:text;padding:0 0 0 .5ch;margin:0;display:inline-block;font-size:inherit;font-family:inherit;font-weight:300;line-height:inherit;height:initial;border:0;border-radius:0;vertical-align:initial}
+.deka_topsparplanfonds .flatpickr-current-month input.cur-year:focus{outline:0}
+.deka_topsparplanfonds .flatpickr-current-month input.cur-year[disabled],.deka_topsparplanfonds .flatpickr-current-month input.cur-year[disabled]:hover{font-size:100%;color:rgba(0,0,0,0.5);background:transparent;pointer-events:none}
+.deka_topsparplanfonds .flatpickr-weekdays{background:transparent;text-align:center;overflow:hidden;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-moz-box-align:center;align-items:center;height:28px}
+.deka_topsparplanfonds span.flatpickr-weekday{cursor:default;font-size:90%;background:transparent;color:rgba(0,0,0,0.54);line-height:1;margin:0;text-align:center;display:block;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;font-weight:bolder}
+.deka_topsparplanfonds .dayContainer,.deka_topsparplanfonds .flatpickr-weeks{padding:1px 0 0 0}
+.deka_topsparplanfonds .flatpickr-days{position:relative;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;width:307.875px;margin-right:0}
+.deka_topsparplanfonds .flatpickr-days:focus{outline:0}
+.deka_topsparplanfonds .dayContainer{padding:0;outline:0;text-align:left;width:307.875px;min-width:307.875px;max-width:307.875px;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-wrap:wrap;-ms-flex-pack:justify;-webkit-justify-content:space-around;justify-content:space-around;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1;margin-right:0}
+.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideLeft{-webkit-animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideLeft,.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideLeftNew{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideLeftNew{-webkit-animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideLeft 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideRight{-webkit-animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeOut 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRight 400ms cubic-bezier(0.23,1,0.32,1);-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+.deka_topsparplanfonds .flatpickr-calendar.animate .dayContainer.slideRightNew{-webkit-animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);-moz-animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1);animation:deka_topsparplanfonds_fpFadeIn 400ms cubic-bezier(0.23,1,0.32,1),deka_topsparplanfonds_fpSlideRightNew 400ms cubic-bezier(0.23,1,0.32,1)}
+.deka_topsparplanfonds .flatpickr-day{background:0;border:1px solid transparent;border-radius:150px;-moz-box-sizing:border-box;box-sizing:border-box;color:#393939;cursor:pointer;font-weight:400;width:14.2857143%;-webkit-flex-basis:14.2857143%;-ms-flex-preferred-size:14.2857143%;flex-basis:14.2857143%;max-width:39px;height:39px;line-height:39px;margin:0;display:inline-block;position:relative;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;-moz-box-pack:center;justify-content:center;text-align:center}
+.deka_topsparplanfonds .flatpickr-day.inRange,.deka_topsparplanfonds .flatpickr-day.prevMonthDay.inRange,.deka_topsparplanfonds .flatpickr-day.nextMonthDay.inRange,.deka_topsparplanfonds .flatpickr-day.today.inRange,.deka_topsparplanfonds .flatpickr-day.prevMonthDay.today.inRange,.deka_topsparplanfonds .flatpickr-day.nextMonthDay.today.inRange,.deka_topsparplanfonds .flatpickr-day:hover,.deka_topsparplanfonds .flatpickr-day.prevMonthDay:hover,.deka_topsparplanfonds .flatpickr-day.nextMonthDay:hover,.deka_topsparplanfonds .flatpickr-day:focus,.deka_topsparplanfonds .flatpickr-day.prevMonthDay:focus,.deka_topsparplanfonds .flatpickr-day.nextMonthDay:focus{cursor:pointer;outline:0;background:#e6e6e6;border-color:#e6e6e6}
+.deka_topsparplanfonds .flatpickr-day.today{border-color:#959ea9}
+.deka_topsparplanfonds .flatpickr-day.today:hover,.deka_topsparplanfonds .flatpickr-day.today:focus{border-color:#959ea9;background:#959ea9;color:#fff}
+.deka_topsparplanfonds .flatpickr-day.selected,.deka_topsparplanfonds .flatpickr-day.startRange,.deka_topsparplanfonds .flatpickr-day.endRange,.deka_topsparplanfonds .flatpickr-day.selected.inRange,.deka_topsparplanfonds .flatpickr-day.startRange.inRange,.deka_topsparplanfonds .flatpickr-day.endRange.inRange,.deka_topsparplanfonds .flatpickr-day.selected:focus,.deka_topsparplanfonds .flatpickr-day.startRange:focus,.deka_topsparplanfonds .flatpickr-day.endRange:focus,.deka_topsparplanfonds .flatpickr-day.selected:hover,.deka_topsparplanfonds .flatpickr-day.startRange:hover,.deka_topsparplanfonds .flatpickr-day.endRange:hover,.deka_topsparplanfonds .flatpickr-day.selected.prevMonthDay,.deka_topsparplanfonds .flatpickr-day.startRange.prevMonthDay,.deka_topsparplanfonds .flatpickr-day.endRange.prevMonthDay,.deka_topsparplanfonds .flatpickr-day.selected.nextMonthDay,.deka_topsparplanfonds .flatpickr-day.startRange.nextMonthDay,.deka_topsparplanfonds .flatpickr-day.endRange.nextMonthDay{background:red;box-shadow:none;color:#fff;border-color:red}
+.deka_topsparplanfonds .flatpickr-day.selected.startRange,.deka_topsparplanfonds .flatpickr-day.startRange.startRange,.deka_topsparplanfonds .flatpickr-day.endRange.startRange{border-radius:50px 0 0 50px}
+.deka_topsparplanfonds .flatpickr-day.selected.endRange,.deka_topsparplanfonds .flatpickr-day.startRange.endRange,.deka_topsparplanfonds .flatpickr-day.endRange.endRange{border-radius:0 50px 50px 0}
+.deka_topsparplanfonds .flatpickr-day.selected.startRange+.endRange,.deka_topsparplanfonds .flatpickr-day.startRange.startRange+.endRange,.deka_topsparplanfonds .flatpickr-day.endRange.startRange+.endRange{box-shadow:-10px 0 0 red}
+.deka_topsparplanfonds .flatpickr-day.selected.startRange.endRange,.deka_topsparplanfonds .flatpickr-day.startRange.startRange.endRange,.deka_topsparplanfonds .flatpickr-day.endRange.startRange.endRange{border-radius:50px}
+.deka_topsparplanfonds .flatpickr-day.inRange{border-radius:0;box-shadow:-5px 0 0 #e6e6e6,5px 0 0 #e6e6e6}
+.deka_topsparplanfonds .flatpickr-day.disabled,.deka_topsparplanfonds .flatpickr-day.disabled:hover,.deka_topsparplanfonds .flatpickr-day.prevMonthDay,.deka_topsparplanfonds .flatpickr-day.nextMonthDay,.deka_topsparplanfonds .flatpickr-day.notAllowed,.deka_topsparplanfonds .flatpickr-day.notAllowed.prevMonthDay,.deka_topsparplanfonds .flatpickr-day.notAllowed.nextMonthDay{color:rgba(57,57,57,0.3);background:transparent;border-color:transparent;cursor:default}
+.deka_topsparplanfonds .flatpickr-day.disabled,.deka_topsparplanfonds .flatpickr-day.disabled:hover{cursor:not-allowed;color:rgba(57,57,57,0.1)}
+.deka_topsparplanfonds .flatpickr-day.week.selected{border-radius:0;box-shadow:-5px 0 0 #f00,5px 0 0 red}
+.deka_topsparplanfonds .rangeMode .flatpickr-day{margin-top:1px}
+.deka_topsparplanfonds .flatpickr-weekwrapper{display:inline-block;float:left}
+.deka_topsparplanfonds .flatpickr-weekwrapper .flatpickr-weeks{padding:0 12px;box-shadow:1px 0 0 #e6e6e6}
+.deka_topsparplanfonds .flatpickr-weekwrapper .flatpickr-weekday{float:none;width:100%;line-height:28px}
+.deka_topsparplanfonds .flatpickr-weekwrapper span.flatpickr-day,.deka_topsparplanfonds .flatpickr-weekwrapper span.flatpickr-day:hover{display:block;width:100%;max-width:none;color:rgba(57,57,57,0.3);background:transparent;cursor:default;border:0}
+.deka_topsparplanfonds .flatpickr-innerContainer{display:block;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;margin-right:0}
+.deka_topsparplanfonds .flatpickr-rContainer{display:inline-block;padding:0;-moz-box-sizing:border-box;box-sizing:border-box;margin-right:0}
+.deka_topsparplanfonds .flatpickr-time{text-align:center;outline:0;display:block;height:0;line-height:40px;max-height:40px;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex}
+.deka_topsparplanfonds .flatpickr-time:after{content:"";display:table;clear:both}
+.deka_topsparplanfonds .flatpickr-time .numInputWrapper{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;width:40%;height:40px;float:left;margin-right:0;display:block}
+.deka_topsparplanfonds .flatpickr-time .numInputWrapper span.arrowUp:after{border-bottom-color:#393939}
+.deka_topsparplanfonds .flatpickr-time .numInputWrapper span.arrowDown:after{border-top-color:#393939}
+.deka_topsparplanfonds .flatpickr-time.hasSeconds .numInputWrapper{width:26%}
+.deka_topsparplanfonds .flatpickr-time.time24hr .numInputWrapper{width:49%}
+.deka_topsparplanfonds .flatpickr-time input{background:transparent;box-shadow:none;border:0;border-radius:0;text-align:center;margin:0;padding:0;height:inherit;line-height:inherit;cursor:pointer;color:#393939;font-size:14px;position:relative;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_topsparplanfonds .flatpickr-time input.flatpickr-hour{font-weight:bold}
+.deka_topsparplanfonds .flatpickr-time input.flatpickr-minute,.deka_topsparplanfonds .flatpickr-time input.flatpickr-second{font-weight:400}
+.deka_topsparplanfonds .flatpickr-time input:focus{outline:0;border:0}
+.deka_topsparplanfonds .flatpickr-time .flatpickr-time-separator,.deka_topsparplanfonds .flatpickr-time .flatpickr-am-pm{height:inherit;display:inline-block;float:left;line-height:inherit;color:#393939;font-weight:bold;width:2%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center}
+.deka_topsparplanfonds .flatpickr-time .flatpickr-am-pm{outline:0;width:18%;cursor:pointer;text-align:center;font-weight:400}
+.deka_topsparplanfonds .flatpickr-time .flatpickr-am-pm:hover,.deka_topsparplanfonds .flatpickr-time .flatpickr-am-pm:focus{background:#f0f0f0}
+.deka_topsparplanfonds .flatpickr-input[readonly]{cursor:pointer}
+@-webkit-keyframes deka_topsparplanfonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_topsparplanfonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);-moz-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_topsparplanfonds_fpFadeInDown{from{opacity:0;-webkit-transform:translate3d(0,-20px,0);-moz-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}
+to{opacity:1;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@-moz-keyframes deka_topsparplanfonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@keyframes deka_topsparplanfonds_fpSlideLeft{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_topsparplanfonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_topsparplanfonds_fpSlideLeftNew{from{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@-moz-keyframes deka_topsparplanfonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@keyframes deka_topsparplanfonds_fpSlideRight{from{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+to{-webkit-transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-moz-keyframes deka_topsparplanfonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@keyframes deka_topsparplanfonds_fpSlideRightNew{from{-webkit-transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}
+to{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@-moz-keyframes deka_topsparplanfonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@keyframes deka_topsparplanfonds_fpFadeOut{from{opacity:1}
+to{opacity:0}
+}
+@-webkit-keyframes deka_topsparplanfonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+@-moz-keyframes deka_topsparplanfonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+@keyframes deka_topsparplanfonds_fpFadeIn{from{opacity:0}
+to{opacity:1}
+}
+.deka_topsparplanfonds .disclaimer ~ *{display:none}
+.deka_topsparplanfonds .disclaimer.accepted{display:none}
+.deka_topsparplanfonds .disclaimer.accepted ~ *{display:block;overflow:hidden}
+.deka_topsparplanfonds .table.no-mobile-header td:before{display:none}
+.deka_topsparplanfonds .error-message--fundssearch,.deka_topsparplanfonds .error-message--products{padding-left:74px;position:relative}
+.deka_topsparplanfonds .error-message--fundssearch:before,.deka_topsparplanfonds .error-message--products:before{font-family:"Pictos-IF";position:absolute;left:20px;top:.2em;color:red;font-size:3em;content:"\0069"}
+.deka_topsparplanfonds .fondssuche-filter button{border:0 none;background:0;padding:0;font-size:1em;line-height:28px;font-family:SparkasseRg,Arial,sans-serif;color:#777;cursor:pointer}
+.no-touch .deka_topsparplanfonds .fondssuche-filter button:hover .ficon:before{color:#fff;background-color:#777}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__sword{display:inline-block;width:33.3333%}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__row{margin-right:-20px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__row:after{content:"";clear:both;display:block}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__row:last-child{margin-bottom:-20px}
+.deka_topsparplanfonds .fondssuche-filter .bline{width:100%}
+.deka_topsparplanfonds .fondssuche-filter .bline .select{margin-right:0}
+.deka_topsparplanfonds .fondssuche-filter .bline__no-title{margin-top:8px}
+.deka_topsparplanfonds .fondssuche-filter .bline.hidden{margin-bottom:auto}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__column{float:left;display:block;width:33.3333%;-moz-box-sizing:border-box;box-sizing:border-box;padding-right:20px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox{padding-top:1em;padding-bottom:4px;margin-bottom:20px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox input{margin-top:8px;height:21px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox label{display:inline-block}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox__title{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox input{display:none}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox span{margin-left:-4px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox label{margin-left:10px;line-height:110%}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--reset{text-align:right}
+.no-touch .deka_topsparplanfonds .fondssuche-filter .reset:hover{color:red}
+.no-touch .deka_topsparplanfonds .fondssuche-filter .reset:hover .ficon:before{background:0;color:red}
+.deka_topsparplanfonds .fondssuche-filter .reset .ficon:before{border:0 none;color:red}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--placeholder{padding-bottom:5px}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--morningstar{padding-bottom:113px}
+.deka_topsparplanfonds .fondssuche-filter label{display:block}
+.deka_topsparplanfonds .fondssuche-filter .hidden{display:none}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__select{display:block;width:100%}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__slider{margin-bottom:20px}
+.deka_topsparplanfonds .fondssuche-filter input[type="text"],.deka_topsparplanfonds .fondssuche-filter select,.deka_topsparplanfonds .fondssuche-filter button{margin-bottom:20px}
+.deka_topsparplanfonds .fondssuche-filter select,.deka_topsparplanfonds .fondssuche-filter .select-wrap{width:100%}
+.deka_topsparplanfonds .fondssuche-filter input[type="text"]{width:100%}
+@media(max-width:759px){.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__column{width:50%}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--morningstar{padding-bottom:5px}
+}
+@media(max-width:549px){.deka_topsparplanfonds .fondssuche-filter button[type="submit"]{margin-top:.25em}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter__column{width:100%}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--placeholder{padding-bottom:0}
+.deka_topsparplanfonds .fondssuche-filter .fondssuche-filter--checkbox__title{margin-bottom:0}
+.deka_topsparplanfonds .fondssuche-filter .bline__no-title{margin-top:0}
+}
+.deka_topsparplanfonds .bootstrap-select.btn-group{height:35px;margin:-7px 0 20px;width:100%;overflow:hidden;color:#666;border:2px solid #666;border-radius:5px;background-color:#fff;line-height:21px;-moz-box-sizing:border-box;box-sizing:border-box;display:block}
+@media(max-width:1079px){.deka_topsparplanfonds .bootstrap-select.btn-group{height:30px;margin-top:-5px}
+}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu.open{-moz-box-sizing:border-box;box-sizing:border-box;background:#fff;border:2px solid #666;border-bottom-left-radius:5px;border-bottom-right-radius:5px}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu li{padding:2px 4px 2px 4px;cursor:pointer}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu li a{display:inline-block;font-size:15px;line-height:21px;width:100%;color:#777}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu li a:hover{text-decoration:none;color:red}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu li .text{margin-left:1px}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu.show-tick li{position:relative}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu.show-tick li:before{content:'';display:inline-block;height:13px;width:13px;border:2px solid #666;border-radius:5px;position:absolute;pointer-events:none;font:13px/81% Pictos-IF;line-height:9px;top:4px;color:#fff}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu.show-tick li.selected:before{content:"v";background-color:red}
+.deka_topsparplanfonds .bootstrap-select .dropdown-menu.show-tick li .text{margin-left:21px}
+.deka_topsparplanfonds .bootstrap-select .dropdown-toggle{background:0;position:relative;width:100%;height:auto;padding:4px 21px 0 5px;margin:0;outline:0;text-align:left}
+.deka_topsparplanfonds .bootstrap-select .dropdown-toggle .filter-option{display:block;font:18px SparkasseWeb,Helvetica,Arial,sans-serif;line-height:21px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:95%;padding-top:1px}
+@media(max-width:1079px){.deka_topsparplanfonds .bootstrap-select .dropdown-toggle .filter-option{font-size:15px;line-height:16px}
+}
+.deka_topsparplanfonds .bootstrap-select .caret{position:absolute;right:24px;top:16px}
+@media(max-width:1079px){.deka_topsparplanfonds .bootstrap-select .caret{top:13px}
+}
+.deka_topsparplanfonds .bootstrap-select .caret:after{border-top:9px solid #666;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;top:50%;margin-top:-4px}
+.deka_topsparplanfonds .bootstrap-select.select-wrap>.select-wrap{display:none}
+.deka_topsparplanfonds>.bootstrap-select.btn-group{display:none}
+.deka_topsparplanfonds>.bootstrap-select.open{display:block;height:auto;border:0;z-index:3;overflow:visible;margin-top:-221px}
+@media(max-width:1079px){.deka_topsparplanfonds>.bootstrap-select.open{margin-top:-134px}
+}
+@media(max-width:759px){.deka_topsparplanfonds>.bootstrap-select.open{margin-top:-103px}
+}
+.deka_topsparplanfonds>.bootstrap-select.open .dropdown-menu.inner{padding-top:2px}
+.deka_topsparplanfonds .bline .bootstrap-select.select-modified{margin:0 0 20px}
+.deka_topsparplanfonds .zertifikatesuche-filter label{display:inline-block}
+.deka_topsparplanfonds .zertifikatesuche-filter input,.deka_topsparplanfonds .zertifikatesuche-filter select,.deka_topsparplanfonds .zertifikatesuche-filter .select-wrap{width:100%;margin-bottom:20px}
+.deka_topsparplanfonds .zertifikatesuche-filter button{border:0 none;background:0;padding:0;font-size:1em;line-height:28px;font-family:SparkasseRg,Arial,sans-serif;color:#777;cursor:pointer}
+.no-touch .deka_topsparplanfonds .zertifikatesuche-filter button:hover .ficon:before{color:#fff;background-color:#777}
+.no-touch .deka_topsparplanfonds .zertifikatesuche-filter button[type="reset"]:hover{color:red}
+.no-touch .deka_topsparplanfonds .zertifikatesuche-filter button[type="reset"]:hover .ficon:before{background:0;color:red}
+.deka_topsparplanfonds .zertifikatesuche-filter button[type="reset"] .ficon:before{border:0 none;color:red}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-row{margin-right:-20px}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-row:after{content:"";clear:both;display:block}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column{width:50%;-moz-box-sizing:border-box;box-sizing:border-box;float:left;padding-right:20px}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column-checkbox{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;margin-top:7px}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column-checkbox input{visibility:hidden}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column-checkbox label{margin-left:10px;line-height:110%}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column .bline{width:100%}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column .bline .select{margin-right:0}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column .bline .no-bottom-margin{margin-bottom:0}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column .bline__input-text input{display:inline-block;width:100%}
+.deka_topsparplanfonds .zertifikatesuche--ready .zertifikatesuche-filter--anzeige{display:none}
+.deka_topsparplanfonds .zertifikatesuche-filter__filter-column--right{text-align:right}
+.deka_topsparplanfonds .zertifikatesuche-anzeige{display:block}
+.deka_topsparplanfonds .zertifikatesuche-anzeige__button{display:block;border:0 none;background:0;padding:10px;font-size:25px;font-family:SparkasseRg,Arial,sans-serif;color:#777;background-color:#e3e3e3;cursor:pointer;width:100%;margin-bottom:10px}
+.no-touch .deka_topsparplanfonds .zertifikatesuche-anzeige__button:hover .ficon:before{color:#fff;background-color:#777}
+.deka_topsparplanfonds .zertifikatesuche-anzeige__button.active{color:#fff;background-color:red}
+.deka_topsparplanfonds .zertifikatesuche--zip .zertifikatesuche-anzeige__button{font-size:20px}
+@media(max-width:549px){.deka_topsparplanfonds .zertifikatesuche-filter__filter-column{float:none;width:100%}
+.deka_topsparplanfonds .zertifikatesuche-filter label.zertifikatesuche-label__empty{display:none}
+}
+@media(max-width:759px){.deka_topsparplanfonds .zertifikatesuche-filter__filter-column-checkbox{margin-top:0}
+}
+@media(max-width:999px){.deka_topsparplanfonds .zertifikatesuche-anzeige{display:none}
+.deka_topsparplanfonds .zertifikatesuche--ready .zertifikatesuche-filter--anzeige{display:block}
+}
+.deka_topsparplanfonds .spinner{margin:100px auto;width:50px;height:40px;text-align:center;font-size:10px}
+.deka_topsparplanfonds .spinner>div{background-color:#333;height:100%;width:6px;display:inline-block;-webkit-transform-origin:50% 100%;-moz-transform-origin:50% 100%;-ms-transform-origin:50% 100%;transform-origin:50% 100%;-webkit-animation:deka_topsparplanfonds_stretchdelay 1.2s infinite ease-in-out;-moz-animation:deka_topsparplanfonds_stretchdelay 1.2s infinite ease-in-out;animation:deka_topsparplanfonds_stretchdelay 1.2s infinite ease-in-out}
+.deka_topsparplanfonds .spinner .rect2{-webkit-animation-delay:-1.1s;-moz-animation-delay:-1.1s;animation-delay:-1.1s}
+.deka_topsparplanfonds .spinner .rect3{-webkit-animation-delay:-1s;-moz-animation-delay:-1s;animation-delay:-1s}
+.deka_topsparplanfonds .spinner .rect4{-webkit-animation-delay:-0.9s;-moz-animation-delay:-0.9s;animation-delay:-0.9s}
+.deka_topsparplanfonds .spinner .rect5{-webkit-animation-delay:-0.8s;-moz-animation-delay:-0.8s;animation-delay:-0.8s}
+.deka_topsparplanfonds .loading-overlay{display:none}
+.deka_topsparplanfonds .loading .loading-overlay{display:block;position:absolute;left:0;top:0;z-index:10;background:rgba(240,240,240,0.6);width:100%;height:100%}
+@-webkit-keyframes deka_topsparplanfonds_stretchdelay{0,40%,100%{-webkit-transform:scaleY(0.4)}
+20%{-webkit-transform:scaleY(1)}
+}
+@-moz-keyframes deka_topsparplanfonds_stretchdelay{0,40%,100%{-moz-transform:scaleY(0.4);transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}
+20%{-moz-transform:scaleY(1);transform:scaleY(1);-webkit-transform:scaleY(1)}
+}
+@keyframes deka_topsparplanfonds_stretchdelay{0,40%,100%{-moz-transform:scaleY(0.4);transform:scaleY(0.4);-webkit-transform:scaleY(0.4)}
+20%{-moz-transform:scaleY(1);transform:scaleY(1);-webkit-transform:scaleY(1)}
+}
+.deka_topsparplanfonds .updown{position:relative;padding-right:30px}
+.deka_topsparplanfonds .updown .up{width:24px;display:inline-block;position:absolute;top:0}
+.deka_topsparplanfonds .updown .up:before{border-bottom:9px solid #777;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;margin-top:-5px;right:0}
+.deka_topsparplanfonds .updown .down{width:24px;display:inline-block;position:absolute;bottom:0}
+.deka_topsparplanfonds .updown .down:before{border-top:9px solid #777;border-left:10px solid transparent;border-right:10px solid transparent;content:"";display:block;position:absolute;margin-top:-10px;right:0}
+.deka_topsparplanfonds .updown input{margin-right:0}
+@media(max-width:999px){.deka_topsparplanfonds .updown{padding-right:0}
+.deka_topsparplanfonds .updown .up,.deka_topsparplanfonds .updown .down{display:none}
+}
+.deka_topsparplanfonds .overview{overflow:hidden;margin-right:-20px;margin-bottom:20px}
+.deka_topsparplanfonds .overview .cbox:last-child{margin-bottom:0}
+.deka_topsparplanfonds .overview .table td,.deka_topsparplanfonds .overview .table th{width:33.333%}
+.deka_topsparplanfonds .overview .table td[colspan="2"],.deka_topsparplanfonds .overview .table th[colspan="2"]{width:66.666%}
+.deka_topsparplanfonds .overview .table thead tr{background:white}
+.deka_topsparplanfonds .overview .table thead tr td,.deka_topsparplanfonds .overview .table thead tr th{padding-bottom:0}
+.deka_topsparplanfonds .overview .table tbody tr{background:white}
+.deka_topsparplanfonds .overview .table tbody tr td,.deka_topsparplanfonds .overview .table tbody tr th{padding-top:0}
+.deka_topsparplanfonds .overview .info-table{position:relative;z-index:1}
+.deka_topsparplanfonds .overview .info-table td:first-child,.deka_topsparplanfonds .overview .info-table th:first-child{padding-left:0}
+.deka_topsparplanfonds .overview .info-table .left{text-align:left}
+.deka_topsparplanfonds .overview .info-table .right{text-align:right}
+.deka_topsparplanfonds .overview .account-info{float:right;width:30%}
+.deka_topsparplanfonds .overview .account-info a[rel="lightbox"]{display:inline-block;height:26px}
+.deka_topsparplanfonds .overview .morningstar-rating{display:block;height:32px}
+@media(max-width:999px){.deka_topsparplanfonds .overview{margin-right:-10px}
+.deka_topsparplanfonds .overview .table td,.deka_topsparplanfonds .overview .table th,.deka_topsparplanfonds .overview .table td[colspan="2"],.deka_topsparplanfonds .overview .table th[colspan="2"]{width:auto}
+.deka_topsparplanfonds .overview .table.medium-equal td,.deka_topsparplanfonds .overview .table.medium-equal th,.deka_topsparplanfonds .overview .table.medium-equal td[colspan="2"],.deka_topsparplanfonds .overview .table.medium-equal th[colspan="2"]{width:50%}
+.deka_topsparplanfonds .overview .account-info{float:none;width:auto}
+.deka_topsparplanfonds .overview .account-info>span{display:block}
+.deka_topsparplanfonds .overview .morningstar-rating{display:inline}
+}
+@media(max-width:649px){.deka_topsparplanfonds .overview .table tbody tr td,.deka_topsparplanfonds .overview .table tbody tr th{padding-top:10px;padding-bottom:5px}
+.deka_topsparplanfonds .overview .table.medium-equal td,.deka_topsparplanfonds .overview .table.medium-equal th,.deka_topsparplanfonds .overview .table.medium-equal td[colspan="2"],.deka_topsparplanfonds .overview .table.medium-equal th[colspan="2"]{width:auto}
+.deka_topsparplanfonds .overview .info-table tr{display:block}
+.deka_topsparplanfonds .overview .info-table td{display:block;padding-left:0}
+.deka_topsparplanfonds .overview .mobile-right .morningstar-rating{padding-right:5px}
+}
+.deka_topsparplanfonds .value.value-after.up:after,.deka_topsparplanfonds .value.value-after.down:after,.deka_topsparplanfonds .value.value-after.neutral:after{display:inline-block;font-family:Pictos-IF;margin-left:5px;vertical-align:bottom}
+.deka_topsparplanfonds .value.value-after.up:after{content:"u"}
+.deka_topsparplanfonds .value.value-after.down:after{content:"d"}
+.deka_topsparplanfonds .value.value-after.neutral:after{content:" \2212"}
+.deka_topsparplanfonds .value.value-before.up:before,.deka_topsparplanfonds .value.value-before.down:before,.deka_topsparplanfonds .value.value-before.neutral:before{display:inline-block;font-family:Pictos-IF;margin-left:5px;vertical-align:bottom}
+.deka_topsparplanfonds .value.value-before.up:before{content:"u"}
+.deka_topsparplanfonds .value.value-before.down:before{content:"d"}
+.deka_topsparplanfonds .value.value-before.neutral:before{content:"\2212"}
+.deka_topsparplanfonds .value.up{color:#85b82d}
+.deka_topsparplanfonds .value.down{color:red}
+.deka_topsparplanfonds .value.neutral{color:#777}
+.deka_topsparplanfonds .morningstar-rating .star-full,.deka_topsparplanfonds .morningstar-rating .star-empty{display:inline-block;width:25px}
+.deka_topsparplanfonds .morningstar-rating .star-full:before,.deka_topsparplanfonds .morningstar-rating .star-empty:before{font-family:Pictos-IF;content:'\f723';font-size:40px;letter-spacing:-10px;margin-left:-10px;vertical-align:bottom}
+.deka_topsparplanfonds .morningstar-rating .star-full{color:red}
+.deka_topsparplanfonds .morningstar-rating .star-empty{color:#777}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating>span{cursor:pointer}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating:hover>span{color:red}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating>span:hover+span{color:#777}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating>span:hover+span+span{color:#777}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating>span:hover+span+span+span{color:#777}
+.deka_topsparplanfonds .morningstar-selector .morningstar-rating>span:hover+span+span+span+span{color:#777}
+.deka_topsparplanfonds .morningstar-selector .select{display:none}
+@media(max-width:999px){.deka_topsparplanfonds .morningstar-rating .star-full,.deka_topsparplanfonds .morningstar-rating .star-empty{width:15px;height:15px}
+.deka_topsparplanfonds .morningstar-rating .star-full:before,.deka_topsparplanfonds .morningstar-rating .star-empty:before{font-size:20px;margin-left:0}
+}
+.deka_topsparplanfonds .range-slider{position:relative;padding:35px 0 22px;margin:0 15px;background-color:transparent}
+.deka_topsparplanfonds .range-slider .slider-von,.deka_topsparplanfonds .range-slider .slider-bis{position:absolute;top:2px}
+.deka_topsparplanfonds .range-slider .slider-von{left:-15px}
+.deka_topsparplanfonds .range-slider .slider-bis{right:-15px}
+.deka_topsparplanfonds .range-slider .ui-slider-handle{display:block;position:absolute;background-color:#FFF;border:1px solid #e3e3e3;top:35px;width:30px;height:30px;margin-left:-15px;margin-top:-10px;border-radius:50%;cursor:pointer}
+.deka_topsparplanfonds .range-slider .ui-slider-range{top:35px;height:10px;position:absolute;background-color:red}
+.deka_topsparplanfonds .unit-input{display:inline;vertical-align:top;padding:7px 7px 0 0;line-height:20px}
+.deka_topsparplanfonds .unit-input:after{color:#777;vertical-align:top;position:relative;top:1px}
+@media(max-width:999px){.deka_topsparplanfonds .unit-input:after{top:0}
+}
+.deka_topsparplanfonds .unit-input--percent:after{content:'%';margin-left:-1.5em}
+.deka_topsparplanfonds .unit-input--percent input{padding-right:1.3em}
+.deka_topsparplanfonds .unit-input--euro:after{content:'EUR';margin-left:-2.5em}
+.deka_topsparplanfonds .unit-input--euro input{padding-right:2.3em}
+.deka_topsparplanfonds .unit-input--of-month:after{content:'. des Monats';margin-left:-6.25em}
+.deka_topsparplanfonds .unit-input--of-month input{padding-right:5.8em}
+.deka_topsparplanfonds td{overflow:hidden}
+.deka_topsparplanfonds th{font-weight:bold}
+.deka_topsparplanfonds .cbox-half{width:50%}
+.deka_topsparplanfonds .bar{display:block;background:#85b82d;height:8px}
+.deka_topsparplanfonds p+h2,.deka_topsparplanfonds ul+h2{margin-top:20px}
+.deka_topsparplanfonds .separate{margin-top:20px}
+@media(max-width:649px){.deka_topsparplanfonds .cbox-half,.deka_topsparplanfonds .cbox-mobile-full{width:100%}
+}
+.deka_topsparplanfonds .footnote .footnote__oneline{display:block}
+.deka_topsparplanfonds .fondssuche{margin-top:50px;font:inherit}
+.deka_topsparplanfonds .fondssuche-result .fondssuche-result__table__row{margin-top:.5em;margin-right:-20px}
+.deka_topsparplanfonds .fondssuche-result .fondssuche-result__table__row:after{content:"";display:block;clear:both}
+.deka_topsparplanfonds .fondssuche-result .if6_lightbox .if6_inner{padding:0}
+.deka_topsparplanfonds .fondssuche-result .devide-top{margin-top:10px;padding-top:10px;border-top:2px solid #777}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell{width:33.3333%;display:block;float:left;padding-right:20px;-moz-box-sizing:border-box;box-sizing:border-box}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell h4{margin:0;font-size:18px;line-height:150%;font-weight:700}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell .textbutton{display:inline-block}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell .textbutton a{position:static}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell.buy-links{float:right;text-align:right;color:#777}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell.buy-links a{text-decoration:none;margin-left:.5em}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell.buy-links a:hover .ficon:before{color:#fff;background-color:#777}
+.deka_topsparplanfonds .fondssuche-result .table{margin-right:0;margin-left:0;color:#777;font-size:14px}
+.deka_topsparplanfonds .fondssuche-result .table:last-child{margin-bottom:0}
+.deka_topsparplanfonds .fondssuche-result .table td:first-child{padding-left:0}
+.deka_topsparplanfonds .fondssuche-result .table td:last-child{padding-right:0}
+.deka_topsparplanfonds .fondssuche-result .table tbody tr:nth-child(even),.deka_topsparplanfonds .fondssuche-result .table tbody tr:nth-child(odd){background-color:transparent}
+.deka_topsparplanfonds .fondssuche-result td{padding-top:0;padding-bottom:0;line-height:27px}
+@media(max-width:999px){.deka_topsparplanfonds .fondssuche{margin-top:20px}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell h4{display:inline-block;font-size:12px;font-weight:400}
+.deka_topsparplanfonds .fondssuche-result td{line-height:150%}
+}
+@media(max-width:759px){.deka_topsparplanfonds .fondssuche-result .fondssuche-result__table__row:after{clear:none}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell{width:50%;margin-bottom:10px}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell.buy-links{float:none;width:100%;clear:both}
+}
+@media(max-width:649px){.deka_topsparplanfonds .fondssuche-result .table td{display:table-cell;text-align:right}
+.deka_topsparplanfonds .fondssuche-result .table td.left{text-align:left}
+}
+@media(max-width:549px){.deka_topsparplanfonds .fondssuche-result .fondssuche-result__table__row:last-child{margin-bottom:-0.5em}
+.deka_topsparplanfonds .fondssuche-result .fonssuche-result__table__cell{float:none;width:100%;margin-bottom:.5em}
+.deka_topsparplanfonds .fondssuche-result table{table-layout:fixed}
+.deka_topsparplanfonds .fondssuche-result .table td.left:last-child{text-align:right}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__container{overflow:auto}
+.deka_topsparplanfonds .deka_topsparplanfonds__container .section.parbase{padding-right:10px}
+.deka_topsparplanfonds .deka_topsparplanfonds__header{margin-bottom:25px}
+.deka_topsparplanfonds .deka_topsparplanfonds__header h1{margin-bottom:5px}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table{table-layout:fixed;font-size:18px;line-height:25px;margin:0}
+@media screen and (max-width:1079px){.deka_topsparplanfonds .deka_topsparplanfonds__list .table{font-size:15px;line-height:150%}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table thead{display:table-header-group}
+@media(max-width:649px){.deka_topsparplanfonds .deka_topsparplanfonds__list .table thead th{font-weight:bolder}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table thead th:first-child,.deka_topsparplanfonds .deka_topsparplanfonds__list .table thead th:nth-child(3){padding-left:0}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table thead th:not(:first-child){display:inline-block}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table td,.deka_topsparplanfonds .deka_topsparplanfonds__list .table th{text-align:left;text-overflow:ellipsis;overflow:hidden;vertical-align:top}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table td:first-child,.deka_topsparplanfonds .deka_topsparplanfonds__list .table th:first-child{width:50px;text-align:center}
+@media(max-width:649px){.deka_topsparplanfonds .deka_topsparplanfonds__list .table td:first-child,.deka_topsparplanfonds .deka_topsparplanfonds__list .table th:first-child{display:table-cell}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table td:last-child,.deka_topsparplanfonds .deka_topsparplanfonds__list .table th:last-child{width:135px;text-align:right}
+@media screen and (max-width:649px){.deka_topsparplanfonds .deka_topsparplanfonds__list .table td:last-child,.deka_topsparplanfonds .deka_topsparplanfonds__list .table th:last-child{text-align:left}
+}
+@media(max-width:649px){.deka_topsparplanfonds .deka_topsparplanfonds__list .table td:nth-child(-n+2){padding-top:10px;vertical-align:top}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__list .table td>span{display:block;font-size:12px;line-height:19px}
+.deka_topsparplanfonds .deka_topsparplanfonds__button{color:red;cursor:pointer;font-size:16px;text-decoration:none}
+@media screen and (max-width:1079px){.deka_topsparplanfonds .deka_topsparplanfonds__button{font-size:14px}
+}
+.deka_topsparplanfonds .deka_topsparplanfonds__button:after{content:">";font:21px/81% Pictos-IF;margin-left:1px;display:inline-block;width:21px;height:21px;border:1px solid red;border-radius:50%;color:red;text-align:center}
+.deka_topsparplanfonds .deka_topsparplanfonds__separator{display:none}
+@media(max-width:649px){.deka_topsparplanfonds .deka_topsparplanfonds__separator{display:inline}
+}
+.deka_topsparplanfonds .cbox.cbox-medium .deka_topsparplanfonds__caption{display:none}
+@media screen and (max-width:958px){.deka_topsparplanfonds .cbox.cbox-medium .deka_topsparplanfonds__caption{display:inline}
+}
+.deka_topsparplanfonds .wertentwicklungsrechner{margin-top:50px;font:inherit}
+.deka_topsparplanfonds .wertentwicklungsrechner .cbox{border-right:0}
+.deka_topsparplanfonds .wertentwicklungsrechner--loading>.cbox{display:none}
+.deka_topsparplanfonds .wertentwicklungsrechner .textbutton a{top:20px;bottom:auto}
+.deka_topsparplanfonds .wertentwicklungsrechner .textbutton a.disabled{color:#e3e3e3;cursor:default}
+.deka_topsparplanfonds .wertentwicklungsrechner .textbutton a.disabled:after{color:#e3e3e3;border-color:#e3e3e3}
+.deka_topsparplanfonds .wertentwicklungsrechner .textbutton a.disabled:hover:after{background-color:transparent}
+.deka_topsparplanfonds .wertentwicklungsrechner .if6_lightbox .if6_inner{padding:0}
+.deka_topsparplanfonds .wertentwicklungsrechner .if6_lightbox .overview{margin-right:0}
+.deka_topsparplanfonds .wertentwicklungsrechner .if6_lightbox .overview .info-table{margin-right:-20px}
+.deka_topsparplanfonds .wertentwicklungsrechner .hidden{display:none}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline br{display:none}
+.deka_topsparplanfonds .wertentwicklungsrechner .link-button{cursor:pointer;border:0;font-family:SparkasseRg,Arial,sans-serif;font-size:1em;color:#777;background:transparent;padding:5px 0}
+.deka_topsparplanfonds .wertentwicklungsrechner-overview{display:table;table-layout:fixed}
+.deka_topsparplanfonds .wertentwicklungsrechner-overview__item{display:table-cell;width:20%}
+.deka_topsparplanfonds .wertentwicklungsrechner-overview h3{color:#000;font-size:20px;line-height:1}
+.deka_topsparplanfonds .wertentwicklungsrechner-result{margin-top:50px}
+.deka_topsparplanfonds .wertentwicklungsrechner-chart-container{position:relative;height:0;padding-bottom:56.25%}
+.deka_topsparplanfonds .wertentwicklungsrechner-chart{position:absolute;height:100%;width:100%}
+.deka_topsparplanfonds .wertentwicklungsrechner-linkbuttons{display:table;table-layout:fixed;margin-bottom:40px}
+.deka_topsparplanfonds .wertentwicklungsrechner-linkbuttons a{color:#777;text-decoration:none;display:table-cell;width:33.3333%}
+.deka_topsparplanfonds .wertentwicklungsrechner-linkbuttons a:after{content:">";font:18px/81% Pictos-IF;margin-left:10px;display:inline-block;width:18px;height:18px;border:1px solid #777;border-radius:50%;color:#777}
+@media(max-width:999px){.deka_topsparplanfonds .wertentwicklungsrechner{margin-top:20px}
+.deka_topsparplanfonds .wertentwicklungsrechner .if6_lightbox .overview .info-table{margin-right:0}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline+.bline{clear:both}
+.deka_topsparplanfonds .wertentwicklungsrechner-result{margin-top:20px}
+}
+@media(max-width:759px){.deka_topsparplanfonds .wertentwicklungsrechner .bline>*+label,.deka_topsparplanfonds .wertentwicklungsrechner .bline>*+.label{width:200px;margin-right:20px}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline>input,.deka_topsparplanfonds .wertentwicklungsrechner .bline>label,.deka_topsparplanfonds .wertentwicklungsrechner .bline>.ficon,.deka_topsparplanfonds .wertentwicklungsrechner .bline>input.not-first-input:first-of-type,.deka_topsparplanfonds .wertentwicklungsrechner .bline>.ficon.not-first-icon:first-of-type{margin-top:10px}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline>input:first-of-type,.deka_topsparplanfonds .wertentwicklungsrechner .bline>label:first-of-type,.deka_topsparplanfonds .wertentwicklungsrechner .bline>.ficon:first-of-type{margin-top:0}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline br{display:block}
+.deka_topsparplanfonds .wertentwicklungsrechner .ixl-large{width:-moz-calc(100% - 230px);width:calc(100% - 230px)}
+}
+@media(max-width:649px){.deka_topsparplanfonds .wertentwicklungsrechner-overview{display:block}
+.deka_topsparplanfonds .wertentwicklungsrechner-overview__item{display:block;width:100%;margin-bottom:20px}
+.deka_topsparplanfonds .wertentwicklungsrechner-overview__item:last-child{margin-bottom:0}
+}
+@media(max-width:549px){.deka_topsparplanfonds .wertentwicklungsrechner .textbutton a{top:auto}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline>label{display:block}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline br{display:none}
+.deka_topsparplanfonds .wertentwicklungsrechner .bline>input,.deka_topsparplanfonds .wertentwicklungsrechner .bline>label,.deka_topsparplanfonds .wertentwicklungsrechner .bline>.ficon,.deka_topsparplanfonds .wertentwicklungsrechner .bline>input.not-first-input:first-of-type,.deka_topsparplanfonds .wertentwicklungsrechner .bline>.ficon.not-first-icon:first-of-type{margin-top:0}
+.deka_topsparplanfonds .wertentwicklungsrechner .ixl-large{width:-moz-calc(100% - 10px);width:calc(100% - 10px)}
+.deka_topsparplanfonds .wertentwicklungsrechner-linkbuttons{display:block;margin-bottom:10px}
+.deka_topsparplanfonds .wertentwicklungsrechner-linkbuttons a{display:block;width:100%}
+}
+.deka_topsparplanfonds .zertifikatesuche{margin-top:50px;font:inherit}
+.zertifikatesuche--zip .deka_topsparplanfonds .zertifikatesuche-result{position:relative;overflow:hidden}
+.deka_topsparplanfonds .zertifikatesuche-result table{table-layout:fixed;font-size:14px}
+.deka_topsparplanfonds .zertifikatesuche-result td,.deka_topsparplanfonds .zertifikatesuche-result th{text-align:left;width:75px;line-height:27px}
+.deka_topsparplanfonds .zertifikatesuche-result td>p,.deka_topsparplanfonds .zertifikatesuche-result th>p{margin-top:0}
+.deka_topsparplanfonds .zertifikatesuche-result .right{text-align:right}
+.deka_topsparplanfonds .zertifikatesuche-result .auto-width{width:auto}
+.deka_topsparplanfonds .zertifikatesuche-result .nobr{white-space:nowrap}
+.deka_topsparplanfonds .zertifikatesuche-result .wide{width:21%}
+.deka_topsparplanfonds .zertifikatesuche-result td:first-child,.deka_topsparplanfonds .zertifikatesuche-result th:first-child{width:25%}
+.deka_topsparplanfonds .zertifikatesuche-result .disabled{color:#777}
+.deka_topsparplanfonds .zertifikatesuche-result__name{max-width:100%;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+@media(max-width:999px){.deka_topsparplanfonds .zertifikatesuche{margin-top:20px}
+.deka_topsparplanfonds .zertifikatesuche-result td{line-height:150%}
+}
+@media(max-width:649px){.deka_topsparplanfonds .zertifikatesuche-result td:first-child,.deka_topsparplanfonds .zertifikatesuche-result th:first-child{width:auto}
+.deka_topsparplanfonds .zertifikatesuche-result td,.deka_topsparplanfonds .zertifikatesuche-result th{width:100%}
+.deka_topsparplanfonds .zertifikatesuche-result td:last-child,.deka_topsparplanfonds .zertifikatesuche-result th:last-child{width:100%}
+.deka_topsparplanfonds .zertifikatesuche-result td>a,.deka_topsparplanfonds .zertifikatesuche-result td>p,.deka_topsparplanfonds .zertifikatesuche-result td>span{clear:both;display:block}
+.deka_topsparplanfonds .zertifikatesuche-result td:before{display:block;font-weight:bold}
+.deka_topsparplanfonds .zertifikatesuche-result .wide{width:100%}
+.deka_topsparplanfonds .zertifikatesuche-result .right{text-align:left}
+}
+.deka_topsparplanfonds .table.left td{text-align:left}
+.deka_topsparplanfonds .accordeon-content-publikationen table td:before{display:none}

@@ -1,0 +1,93 @@
+.ibanrechner{padding:0 !important}
+.ibanrechner_container *,.ibanrechner_container *:before,.ibanrechner_container *:after{box-sizing:border-box}
+.ibanrechner_container *{line-height:1.3}
+.ibanrechner_container .head{border-bottom:1px solid #e3e3e3;padding:20px 20px 0 20px}
+.ibanrechner_container .head .main-heading{color:red;font-size:25px;line-height:1}
+.ibanrechner_container .head .sub-heading{color:#000;font-size:18px;padding-bottom:10px;padding-top:5px}
+@media(max-width:1000px){.ibanrechner_container .head{padding:10px 10px 0 10px}
+.ibanrechner_container .head .main-heading{font-size:17px;padding-bottom:5px}
+.ibanrechner_container .head .sub-heading{font-size:15px;padding-top:0}
+}
+.ibanrechner_container .entry-page{border-top:4px solid #f0f0f0;padding-bottom:20px;height:220px}
+.ibanrechner_container .entry-page .inputError{box-shadow:#f00 0 0 1.5px 1px}
+.ibanrechner_container .entry-page .column{float:left}
+.ibanrechner_container .entry-page .column.left{padding-left:40px;width:45%}
+.ibanrechner_container .entry-page .column.right{width:55%}
+.ibanrechner_container .entry-page .column.right .message{font-size:14px;padding-right:30px;line-height:1.3}
+.ibanrechner_container .entry-page .column.right .message.error{color:red}
+.ibanrechner_container .entry-page .column-heading{color:#777;font-size:18px;margin:40px 0 15px 0}
+.ibanrechner_container .entry-page .text-field{width:200px}
+.ibanrechner_container .entry-page .text-field+.text-field{margin-top:10px}
+.ibanrechner_container .entry-page .text-field[placeholder]{font-size:14px}
+@media(max-width:1000px){.ibanrechner_container .entry-page{height:auto;overflow:auto}
+.ibanrechner_container .entry-page .column.left{padding-left:10px;width:430px}
+.ibanrechner_container .entry-page .column.right{padding-left:20px;width:"calc(___YUICSSMIN_PRESERVED_TOKEN_0___)"}
+.ibanrechner_container .entry-page .column.right .message{font-size:12px;margin-top:5px;padding-right:10px}
+.ibanrechner_container .entry-page .column-heading{font-size:15px;margin:10px 0 0 0}
+.ibanrechner_container .entry-page .text-field{margin-right:10px}
+}
+@media(max-width:860px){.ibanrechner_container .entry-page .column-heading{margin-bottom:10px}
+.ibanrechner_container .entry-page .column.left{width:220px}
+.ibanrechner_container .entry-page .column.right{width:"calc(___YUICSSMIN_PRESERVED_TOKEN_1___)"}
+.ibanrechner_container .entry-page .column.right .message{margin-top:-5px}
+}
+@media(max-width:568px){.ibanrechner_container .entry-page .column.left{width:100%}
+.ibanrechner_container .entry-page .column.right{width:100%;padding-left:10px;padding-top:10px}
+}
+@media(max-width:460px){.ibanrechner_container .entry-page .text-field{display:block}
+}
+.ibanrechner_container .results-page{border-top:4px solid #f0f0f0;height:220px;padding:20px 0 20px 20px}
+.ibanrechner_container .results-page .labeled-result{margin-right:40px}
+.ibanrechner_container .results-page .labeled-result.standalone{display:block}
+.ibanrechner_container .results-page .labeled-result+.labeled-result{display:inline-block;margin-top:-10px}
+.ibanrechner_container .results-page .labeled-result.last{margin-top:-10px}
+.ibanrechner_container .results-page .label{display:inline-block;font-size:18px;padding-right:10px}
+.ibanrechner_container .results-page .label.fixed{width:100px}
+.ibanrechner_container .results-page .message{color:#777;font-size:14px;margin-top:10px;padding-right:20px}
+.ibanrechner_container .results-page .message.error{color:red}
+@media(max-width:1000px){.ibanrechner_container .results-page{height:auto;padding:15px 0 10px 10px}
+.ibanrechner_container .results-page .labeled-result{display:inline-block;margin-right:20px}
+.ibanrechner_container .results-page .label{font-size:15px}
+.ibanrechner_container .results-page .label.fixed{width:50px}
+.ibanrechner_container .results-page .message{font-size:12px}
+}
+@media(max-width:650px){.ibanrechner_container .results-page .labeled-result.last{margin-top:-10px}
+.ibanrechner_container .results-page .message{margin-top:10px}
+}
+.ibanrechner_container .iban{display:inline-block}
+.ibanrechner_container .iban .hidden{visibility:hidden}
+.ibanrechner_container .iban .labelPaddings{padding:5px 10px 0 5px;visibility:hidden}
+.ibanrechner_container .iban .spacer{display:inline-block;padding:0;position:relative}
+.ibanrechner_container .iban .element:first-child{padding-right:5px}
+.ibanrechner_container .iban .element+.element{padding-left:5px}
+.ibanrechner_container .iban .bankCodeLabel{display:block;width:100%;padding:1px 0 5px 0;margin-top:-1px;background-color:#e3e3e3;color:#777;font-size:14px;text-align:center}
+.ibanrechner_container .iban .accountNumberLabel{display:block;width:100%;padding:1px 0 5px 0;margin-top:-1px;background-color:#f0f0f0;color:#777;font-size:14px;text-align:center}
+.ibanrechner_container .iban .bank-code{background-color:#e3e3e3;padding:5px 5px 0 5px;position:relative}
+.ibanrechner_container .iban .account-number{background-color:#f0f0f0;padding:5px 5px 0 5px;position:relative}
+@media(max-width:460px){.ibanrechner_container .iban .bankCodeLabel{font-size:12px}
+.ibanrechner_container .iban .accountNumberLabel{font-size:12px}
+.ibanrechner_container .results-page .iban,.ibanrechner_container .results-page .value,.ibanrechner_container .results-page .label{font-size:12px}
+}
+.ibanrechner_container .footer{border-top:2px solid #e3e3e3;padding:0 20px;height:60px}
+@media(max-width:1000px){.ibanrechner_container .footer{padding:0 10px}
+}
+.ibanrechner_container .button{color:red;cursor:pointer;float:right;font-size:18px;background:0;border:0;padding:15px 0}
+.ibanrechner_container .button.submit:after{border:1px solid red;border-radius:50%;content:'>';display:inline-block;font-family:'Pictos-IF';line-height:81%;height:18px;margin-left:10px;width:18px}
+.ibanrechner_container .button.submit:hover:after{background-color:red;color:#fff}
+.ibanrechner_container .button.reset:before{content:'\F702';display:inline-block;font-family:'Pictos-IF';font-size:50px;float:left;line-height:.3;vertical-align:middle}
+@media(max-width:1000px){.ibanrechner_container .button{font-size:15px;padding:17px 0}
+.ibanrechner_container .button.submit:after{height:17px;width:17px}
+.ibanrechner_container .button.reset:before{font-size:40px;line-height:.3}
+}
+.ibanrechner_container .spinner{float:right;margin-right:10px;padding:12px 0}
+@-webkit-keyframes ibanrechner-spin{0{-webkit-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes ibanrechner-spin{0{-webkit-transform:rotate(0);transform:rotate(0)}
+100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+.ibanrechner_container .spinner .spin{-webkit-animation:ibanrechner-spin 1s infinite linear;animation:ibanrechner-spin 1s infinite linear;-webkit-transform-origin:16px 16px;transform-origin:16px 16px}
+.ibanrechner_container .spinner svg{display:inline-block;vertical-align:middle;-webkit-transform:scale(0.85);transform:scale(0.85)}
+@media(max-width:999px){.ibanrechner_container .spinner{margin-right:5px;padding:12px 0}
+.ibanrechner_container .spinner svg{-webkit-transform:scale(0.75);transform:scale(0.75)}
+}

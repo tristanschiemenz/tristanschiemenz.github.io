@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our website!</h1>
+    </header>
+    <div class="container">
+        <p>Write your name in the box below and join our community.</p>
+        <div>
+            <label for="nameInput">Enter your name:</label>
+            <input id="nameInput" type="text">
+            <button onclick="addName()">Submit</button>
+        </div>
+        <h2>Total names submitted: <span id="counter">0</span></h2>
+        <ul id="nameList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
