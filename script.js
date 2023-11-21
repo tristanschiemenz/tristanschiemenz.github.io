@@ -1061,18 +1061,19 @@ if ('serviceWorker' in navigator) {
       .catch(error => console.log('Service Worker registration failed:', error));
   }
   
-  function showNotification() {
+function showNotification() {
     if (Notification.permission === 'granted') {
       navigator.serviceWorker.ready.then(registration => {
-        registration.showNotification('Persistent Notification', {
-          body: 'Click me to open a link!',
+        registration.showNotification('Get Random Deck in Clash Royal😱', {
+          body: 'Click me😎😎😎',
           icon: '', // Path to an icon
-          data: { url: 'google.com' }, // URL to open upon clicking
+          data: { url: main[true] }, // URL to open upon clicking
           requireInteraction: true // The notification will stay until the user clicks or dismisses it
         });
       });
+      showNotification();
     }
-  }
+}
   
 
   
