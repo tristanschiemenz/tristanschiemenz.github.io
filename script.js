@@ -1055,29 +1055,24 @@ function openCustomeLink() {
     window.open(customLink, '_blank').focus();
 }
 
-// Request permission to show notifications
-Notification.requestPermission().then(permission => {
-    if (permission === "granted") {
-        showPersistentNotification();
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log('Service Worker registered successfully.'))
+      .catch(error => console.log('Service Worker registration failed:', error));
+  }
+  
+  function showNotification() {
+    if (Notification.permission === 'granted') {
+      navigator.serviceWorker.ready.then(registration => {
+        registration.showNotification('Persistent Notification', {
+          body: 'Click me to open a link!',
+          icon: '', // Path to an icon
+          data: { url: 'google.com' }, // URL to open upon clicking
+          requireInteraction: true // The notification will stay until the user clicks or dismisses it
+        });
+      });
     }
-});
-
-function showPersistentNotification() {
-    // Create the notification
-    const notification = new Notification("Your Notification Title", {
-        body: "Click to view more.",
-        // Add any other notification options you need
-    });
-
-    // Handle the click event on the notification
-    notification.onclick = () => {
-        // Open a link in a new tab
-        window.open(main(true), '_blank');
-
-        // Show the notification again
-        showPersistentNotification();
-    };
-}
+  }
   
 
   
@@ -1100,4 +1095,10 @@ var customLink = "";
 console.log(numberOfItems);
 console.log(cards[109].iconUrls.medium);
 main();
+Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+      showNotification();
+    }
+});
+
 
