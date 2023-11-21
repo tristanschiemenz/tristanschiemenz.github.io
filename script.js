@@ -1055,10 +1055,36 @@ function openCustomeLink() {
     window.open(customLink, '_blank').focus();
 }
 
-function main(){
+function askNotificationPermission() {
+    Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+            showNotification();
+        }
+    });
+}
+
+function showNotification() {
+    const notification = new Notification("Give Random Deck😱", {
+        body: "Click the message to instantly get a new random Deck😎",
+    });
+
+    notification.onclick = function(event) {
+        event.preventDefault(); // prevent the browser from focusing the Notification's tab
+        window.open(main(true), '_blank');
+    };
+}
+
+askNotificationPermission();
+
+function main(notification){
     var randomNumbers = generateUniqueRandomNumbers(8,0,109);
-    displayCards(randomNumbers);
+    if(notification){
+        createCustomLink(randomNumbers);
+        return customLink;
+    }
     createCustomLink(randomNumbers);
+    displayCards(randomNumbers);
+
 }
 
 
