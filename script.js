@@ -1056,36 +1056,26 @@ function openCustomeLink() {
 }
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(registration => {
-        console.log('Service Worker registered with scope:', registration.scope);
-      })
-      .catch(error => {
-        console.log('Service Worker registration failed:', error);
-      });
-}
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log('Service Worker registered successfully.'))
+      .catch(error => console.log('Service Worker registration failed:', error));
+  }
   
-function askNotificationPermission() {
-    Notification.requestPermission().then(permission => {
-      if (permission === "granted") {
-        console.log("Notifications permission granted.");
-        // Here, you'd usually set up code to send a subscription request to your server
-      }
-    });
-}
+  function showNotification() {
+    if (Notification.permission === 'granted') {
+      navigator.serviceWorker.ready.then(registration => {
+        registration.showNotification('Persistent Notification', {
+          body: 'Click me to open a link!',
+          icon: '', // Path to an icon
+          data: { url: 'google.com' }, // URL to open upon clicking
+          requireInteraction: true // The notification will stay until the user clicks or dismisses it
+        });
+      });
+    }
+  }
+  
 
-function showNotification() {
-    const notification = new Notification("Give Random Deck😱", {
-        body: "Click the message to instantly get a new random Deck😎",
-    });
-
-    notification.onclick = function(event) {
-        event.preventDefault(); // prevent the browser from focusing the Notification's tab
-        window.open(main(true), '_blank');
-        showNotification();
-    };
-}
-
+  
 function main(notification){
     var randomNumbers = generateUniqueRandomNumbers(8,0,109);
     if(notification){
@@ -1105,6 +1095,10 @@ var customLink = "";
 console.log(numberOfItems);
 console.log(cards[109].iconUrls.medium);
 main();
-askNotificationPermission();
+Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+      showNotification();
+    }
+});
 
 
