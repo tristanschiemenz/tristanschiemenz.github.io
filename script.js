@@ -1071,7 +1071,7 @@ function showNotification() {
           requireInteraction: true // The notification will stay until the user clicks or dismisses it
         });
       });
-      showNotification();
+
     }
 }
   
