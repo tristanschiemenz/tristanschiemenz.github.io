@@ -1024,7 +1024,7 @@ function generateUniqueRandomNumbers(count, min, max) {
 }
 function createCustomLink(randomNumbers){
   //https://link.clashroyale.com/deck/en?deck=26000005;26000000;28000000;26000018;28000002;26000033;26000050;26000093
-  var basicString = "clashroyale://copyDeck?deck="
+  var basicString = "https://link.clashroyale.com/deck/en?deck="
   for(let i = 0; i < 8; i++){
       basicString = basicString + cards[randomNumbers[i]].id + ";"
   }
