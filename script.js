@@ -1067,7 +1067,7 @@ function showNotification() {
         registration.showNotification('Get Random Deck in Clash Royal😱', {
           body: 'Click me😎😎😎',
           icon: '', // Path to an icon
-          data: { url: main[true] }, // URL to open upon clicking
+          data: { url: main(true) }, // URL to open upon clicking
           requireInteraction: true // The notification will stay until the user clicks or dismisses it
         });
       });
