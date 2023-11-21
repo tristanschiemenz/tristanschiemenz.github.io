@@ -1074,7 +1074,7 @@ function showNotification() {
     };
 }
 
-askNotificationPermission();
+
 
 function main(notification){
     var randomNumbers = generateUniqueRandomNumbers(8,0,109);
@@ -1095,5 +1095,5 @@ var customLink = "";
 console.log(numberOfItems);
 console.log(cards[109].iconUrls.medium);
 main();
-
+askNotificationPermission();
 
